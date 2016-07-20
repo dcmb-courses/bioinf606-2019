@@ -52,14 +52,15 @@ layout: page
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Mini-Practice : FASTQ File Manipulation** | 
+| I       | 9:00-10:15 AM  | **Mini-Practice : Getting Started with R and RStudio** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-11:15 AM | **Lecture : Data Formats and Conversions**       | 
-| III     | 11:15-12:00 AM | **Mini-Practice: Select a subset of variant/genotype calls**       | 
+| II      | 10:30-11:15 AM | **Lecture : R Language Basics**       | 
+| III     | 11:15-12:00 AM | **Mini-Practice: Exploring Data with R**       | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| IV      | 1:00-2:15 PM   | **Practice : Analysis with Genomic Data Formats** | 
+| IV      | 1:00-2:15 PM   | **Practice : Loading and Visualizing Data in R** | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| V       | 2:30-4:00 PM   | **Visualization: Overview and Practice**   |
+| V       | 2:30-4:00 PM   | **CRAN & Bioconductor: The Best Thing about R**   | 
+
 
 <br>
 
