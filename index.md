@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Introduction to Biocomputing (BIOS/BIOI/HG 606) 
+# Introduction to Biocomputing 2016 (BIOS/BIOI/HG 606) 
 
 **Overview:** This hands-on boot camp introduces new graduate students to computational tools, techniques and best practices that foster reproducible research in bioinformatics, genome informatics and biostatistics.
 
@@ -10,13 +10,13 @@ layout: page
 
 **Audience:** Students with little to no UNIX experience and no formal programming training.
 
-**Requirements:** Participants must bring a laptop with [specific software packages installed]({{ site.baseurl }}/setup/).
+**Requirements:** Participants must bring a laptop with specific [**software installed**]({{ site.baseurl }}/setup/).
 
 **When:** August 22-26 (2016), 9:00 AM - 4:00 PM 
 
-**Where:** 3755 SPH1 (School of Public Health building 1) [Map](https://www.google.com/maps/dir///@42.2807432,-83.7302821,19z)
+**Where:** 3755 SPH1 (School of Public Health building 1) [**Map**](https://www.google.com/maps/dir///@42.2807432,-83.7302821,19z)
 
-**Class Questionnaire** Please help us improve this course by completing this [questionnaire](http://tinyurl.com/bioboot-questions-2016). 
+**N.B.** Please help us improve this course by completing this [**pre-course questionnaire**](http://tinyurl.com/bioboot-questions-2016). 
 
 <br>
 
@@ -59,7 +59,7 @@ layout: page
 |         | 12:00-1:00PM   | Lunch                    | 
 | IV      | 1:00-2:15 PM   | **Practice : Loading and Visualizing Data in R** | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| V       | 2:30-4:00 PM   | **CRAN & Bioconductor: The Best Thing about R**   | 
+| V       | 2:30-4:00 PM   | **CRAN & Bioconductor: The Best Things about R**   | 
 
 
 <br>
