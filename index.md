@@ -6,17 +6,17 @@ layout: page
 
 **Overview:** This hands-on boot camp introduces new graduate students to computational tools, techniques and best practices that foster reproducible research in bioinformatics, genome informatics and biostatistics.
 
-**Description:** Concepts and tools covered include the Unix system, version control, data management, software compilation, task automation and cluster computing. Participants will be encouraged to help one another and to apply what they have learned to their own research problems. Our tools of choice will be Python (for programming), Git (for version control) and PBS (for cluster resource management). However, lessons learned should be widely applicable for those looking to incorporate more productive computational approaches into their daily research work.
+**Description:** Concepts and tools covered include the Unix system, version control, data management, software compilation, task automation and cluster computing. Participants will be encouraged to help one another and to apply what they have learned to their own research problems. Our tools of choice will be Python (for programming), R (for data analysis), Git (for version control) and PBS (for cluster resource management). However, lessons learned should be widely applicable for those looking to incorporate more productive computational approaches into their daily research work.
 
 **Audience:** Students with little to no UNIX experience and no formal programming training.
 
 **Requirements:** Participants must bring a laptop with [specific software packages installed]({{ site.baseurl }}/setup/).
 
-**When:** August 24-28, 9:00 AM - 4:00 PM 
+**When:** August 22-26 (2016), 9:00 AM - 4:00 PM 
 
 **Where:** 3755 SPH1 (School of Public Health building 1) [Map](https://www.google.com/maps/dir///@42.2807432,-83.7302821,19z)
 
-**Class Questionnaire** Please help us improve this course by completing this [questionnaire](http://tinyurl.com/bioboot-questions). 
+**Class Questionnaire** Please help us improve this course by completing this [questionnaire](http://tinyurl.com/bioboot-questions-2016). 
 
 <br>
 
@@ -34,7 +34,7 @@ layout: page
 
 <br>
 
-#### [Day 2. Introduction to Programming]({{ site.baseurl }}/day2/)
+#### [Day 2. Introduction to Programming with Python]({{ site.baseurl }}/day2/)
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
@@ -48,7 +48,7 @@ layout: page
 
 <br>
 
-#### [Day 3. Data Formats and Visualization]({{ site.baseurl }}/day3/) 
+#### [Day 3. Data Analysis and Graphics with R]({{ site.baseurl }}/day3/) 
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
@@ -94,7 +94,7 @@ layout: page
 <br>
 <a name="other"></a>
 
-## Other courses  
+## Other courses (to be updated) 
 **Mini course**:  Introduction to Python  
 (Sept. 14 – 21,  8:30-10 AM)   
 <http://tinyurl.com/bioboot-1>  

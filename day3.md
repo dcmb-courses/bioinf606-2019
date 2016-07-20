@@ -4,83 +4,46 @@ title: Day 3
 permalink: /day3/
 ---
 
-# Day 3. Data Formats and Visualization
+# Day 3. Data Analysis and Graphics with R
 
-A large fraction of biological science in these days involves
-analysis of genomic data.
+Today we will be working with the R language and environment for statistical computing, data analysis and graphics.  
 
-There are many *de facto* standards for
-representing genomic data, including but not limited to,
-FASTA, FASTQ, SAM/BAM, VCF, GTF, and BED formats.
-The ability to read and manipulate data files stored in these formats
-is one of the key skill sets needed for genome scientists.
+Developing code in R is a back-and-forth between writing code in a rerunnable script and exploring data interactively in the R interpreter. To be reproducible, all steps that lead to results you’ll use later must be recorded in an R script that accompanies your analysis and interactive work.  
 
-Effective visualization of the genomic data and its analysis outcome is a
-key component for successful communication in the research community
-handling a large amount of genomic data.
+Before getting our hands dirty working with real data in R, we need to learn the basics of the R language. Even if you’ve poked around in R and seen these concepts before, I would still recommend you follow along and complete the free online interactive learning tutorial [“TryR” (http://tryr.codeschool.com)](http://tryr.codeschool.com). This will take you through a gentle introduction to R syntax and some of the major R data structures (called vectors, matrices and data.frames). 
 
-Today, we will learn the widely used genomic data formats and
-practice how to read and manipulate the data in these formats. We will
-also learn the basics of data visualization with practice on real data.
 
 <br>
 
-### Schedule:
+### Schedule (To be updated):
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Mini-Practice : FASTQ File Manipulation** | 
+| I       | 9:00-10:15 AM  | **Mini-Practice : Getting Started with R and RStudio** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-11:15 AM | **Lecture : Data Formats and Conversions**       | 
-| III     | 11:15-12:00 AM | **Mini-Practice: Select a subset of variant/genotype calls**       | 
+| II      | 10:30-11:15 AM | **Lecture : R Language Basics**       | 
+| III     | 11:15-12:00 AM | **Mini-Practice: Loading and Exploring Data with R**       | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| IV      | 1:00-2:15 PM   | **Practice : Analysis with Genomic Data Formats** | 
+| IV      | 1:00-2:15 PM   | **Practice : Working with and Visualizing Data in R** | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| V       | 2:30-4:00 PM   | **Visualization: Overview and Practice**   | 
+| V       | 2:30-4:00 PM   | **CRAN & Bioconductor: The Best Thing about R**   | 
 
 
 <br>
 
 ### Instructors:
 Hyun Min Kang (HMK)  
-Jacob Kitzman (JK)
+Barry Grant (BJG)  
+Ryan Mills (RM)
 
 <br>
 
-### Topics:
+### Topics (To be updated):
 
-#### I) Mini-Practice : FASTQ File Manipulation [1:15 hr]  HMK
-- [Introductory Slides - Getting Started with FASTQ Files](../class-material/2015_08_day3_sec01_v1.pdf)
-- [Exploring FASTQ files in UNIX](../class-material/day3-fastq-unix-practice.html)
 
-—- Coffee Break [15 mins] —  
-
-#### II) Lecture : Overview of Genomic Data Formats and Conversions [0:45 hr]  JK
- - [Slides - Genomic Data Formats](../class-material/day3_section2.pdf)
-
-#### III) Mini-Practice: Select a subset of variant/genotype calls [0:45 hr] JK
- - [Downloading a VCF file](../class-material/day3-vcf-1.html)
- - [Selecting and manipulating variants and genotpye data](../class-material/day3-vcf-2.html)
-
-—- Lunch Break [1 hr] —  
-
-#### IV) Practice : Analysis with Genomic Data Formats [1:15 hr]  HMK
-- [Understanding how to access FASTA files](../class-material/day3-fasta-practice.html)
-- [Accessing aligned sequence reads in SAM/BAM format](../class-material/day3-bam-practice.html)
-- [Representing genes and transcripts using GTF and genePred format](../class-material/day3-gtf-practice.html)
-- [Working with BED files](../class-material/day3-bed-practice.html)
-
-—- Coffee Break [15 mins] —  
-
-#### V) Visualization: Overview and Practice [1:30 hr] JK
-- [Data visualization for exploratory analysis](../class-material/day3-plotting1.html)
-- [Useful plotting links](../class-material/day3-plotting2.html)
-- [ipython notebook - basic plotting](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/basic_matplotlib_plots.ipynb)
-- [ipython notebook - read counts, X vs autosomes](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/read_counts_by_chrom.ipynb)
-
-—- End/Wrap-Up —
 
 <br>
 
 ### Reference material
-[Referene Commands and Glossary](../class-material/unix-reference.html)  
+[RStudio cheatsheet](http://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf):  A well designed reference card for RStudio features.  
+[Try R](http://tryr.codeschool.com): An excellent interactive online R tutorial.   
