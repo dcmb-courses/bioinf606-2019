@@ -12,7 +12,7 @@ layout: page
 
 **Requirements:** Participants must bring a laptop with [specific software packages installed]({{ site.baseurl }}/setup/).
 
-**When:** August 24-28, 9:00 AM - 4:00 PM 
+**When:** August 22-26, 9:00 AM - 4:00 PM 
 
 **Where:** 3755 SPH1 (School of Public Health building 1) [Map](https://www.google.com/maps/dir///@42.2807432,-83.7302821,19z)
 
