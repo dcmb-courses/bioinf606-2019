@@ -19,14 +19,13 @@ Before getting our hands dirty working with real data in R, we need to learn the
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Mini-Practice : Getting Started with R and RStudio** | 
+| I       | 9:00-10:15 AM  | **R Language Basics and the RStudio IDE** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-11:15 AM | **Lecture : R Language Basics**       | 
-| III     | 11:15-12:00 AM | **Mini-Practice: Exploring Data with R**       | 
+| II      | 10:30-12:00 AM | **Exploring Data with R** | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| IV      | 1:00-2:15 PM   | **Practice : Loading and Visualizing Data in R** | 
+| IV      | 1:00-2:15 PM   | **Loading and Visualizing Data in R** | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| V       | 2:30-4:00 PM   | **CRAN & Bioconductor: The Best Thing about R**   | 
+| V       | 2:30-4:00 PM   | **CRAN & Bioconductor: The Best Things about R** | 
 
 
 <br>
