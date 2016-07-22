@@ -10,13 +10,13 @@ layout: page
 
 **Audience:** Students with little to no UNIX experience and no formal programming training.
 
-**Requirements:** Participants must bring a laptop with specific [**software installed**]({{ site.baseurl }}/setup/).
+**Requirements:** Participants must bring a laptop with specific [software installed]({{ site.baseurl }}/setup/).
 
 **When:** August 22-26 (2016), 9:00 AM - 4:00 PM 
 
-**Where:** 3755 SPH1 (School of Public Health building 1) [**Map**](https://www.google.com/maps/dir///@42.2807432,-83.7302821,19z)
+**Where:** 3755 SPH1 (School of Public Health building 1) [Map](https://www.google.com/maps/dir///@42.2807432,-83.7302821,19z)
 
-**N.B.** Please help us improve this course by completing this [**pre-course questionnaire**](http://tinyurl.com/bioboot-questions-2016). 
+**N.B.** Please help us improve this course by completing this [pre-course questionnaire](http://tinyurl.com/bioboot-questions-2016). 
 
 <br>
 
@@ -54,11 +54,11 @@ layout: page
 | :-----: |:--------------:| :----------------------- | 
 | I       | 9:00-10:15 AM  | **R Language Basics and the RStudio IDE** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Exploring Data with R** | 
+| II      | 10:30-12:00 AM | **Loading and Exploring Data with R** | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| IV      | 1:00-2:15 PM   | **Loading and Visualizing Data in R** | 
+| III     | 1:00-2:15 PM   | **Advanced Data Visualization in R** | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| V       | 2:30-4:00 PM   | **CRAN & Bioconductor: The Best Things about R** | 
+| IV      | 2:30-4:00 PM   | **Working with R packages from CRAN & Bioconductor** | 
 
 <br>
 
@@ -105,6 +105,10 @@ layout: page
 **Full course**:   BIOINF-575 Programing Lab in Bioinformatics  
 (Winter term)   
 <http://tinyurl.com/bioboot-4>
+
+**Full course**:   BIOINF-525 Foundations of Bioinformatics & Systems Biology  
+(Winter term)   
+<https://bioboot.github.io/bioinf525_w16/>
 
 **Symposium**:   Computational Discovery in Complex System Biology  
 (Sept. 22,  9-5 PM)  
