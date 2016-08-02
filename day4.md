@@ -84,7 +84,7 @@ Chris Scheller (CS)
 <br>
 
 ### Reference material
-[Git Reference Commands and Glossary](../class-material/git-reference.html)  
+[Git Reference Commands and Glossary](https://scotch.io/bar-talk/git-cheat-sheet)  
 <!--- files dont exist yet...
 [Slides-4.1]()
 [Slides-4.2]()
