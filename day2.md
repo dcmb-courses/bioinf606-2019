@@ -34,14 +34,12 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 
 ### Instructors:
 Jeff de Wet (JdW)  
-Jeff Kidd (JK)
+Jacob Kitzman (JK)
 
-### Assistants:
-Ryan Welch (RW)
 
 <br>
 
-#### I)   Intro to Python and Programming Concepts [1:15 hr]  JK & JdW
+#### I)   Intro to Python and Programming Concepts [1:15 hr]  JdW
 - What is Python?  What is programming?
 - Setup and execution of simple scripts
 - Data input and output
@@ -61,7 +59,7 @@ Ryan Welch (RW)
 
 —- Coffee Break [15 mins] —  
 
-#### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] BG & HJ
+#### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] JK
 - Calling external programs 
 - Plotting using matplotlib and other utilities
 - Demonstration of iPython notebooks
@@ -73,10 +71,9 @@ Ryan Welch (RW)
 
 ### Reference material
 [Class Handout](../class-material/handout_day2-2_python.pdf)
-
-[Python Referene Commands and Glossary](../class-material/python-reference.html)  
-[Python Referene from Software Carpentry](http://software-carpentry.org/v5/novice/ref/03-python.html)  
-[Matplotlib Gallery](http://matplotlib.org/gallery.html)
+  
+[Python Quick Referene](http://rgruet.free.fr/)  
+[Matplotlib Gallery](http://matplotlib.org/gallery.html)  
 [iPython Notebooks](http://ipython.org/notebook.html)
 
 <!--- files dont exist yet...

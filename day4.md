@@ -31,7 +31,7 @@ Afternoon sessions will introduce cluster computing. Computer clusters typically
 ### Instructors:
 Barry Grant (BG)  
 Ryan Mills (RM)  
-Ken Weiss (KW)
+Drew Montag (DM)
 
 ### Assistants:
 Chris Scheller (CS)
@@ -67,7 +67,7 @@ Chris Scheller (CS)
 
 —- Lunch Break [1 hr] —
 
-### III)   Concepts in Cluster Computing [1.15 hr]  KW  
+### III)   Concepts in Cluster Computing [1.15 hr]  DM  
 - Connecting to FLUX
 - Why cluster computing? 
 - Cluster job submission
