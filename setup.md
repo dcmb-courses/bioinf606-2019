@@ -18,7 +18,9 @@ To login to FLUX you will also require an **MToken**. An MToken is a software ap
 ### The Bash Shell
 Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
 
-**Windows:** Install [MobaXterm](http://mobaxterm.mobatek.net), an enhanced terminal with bash for Windows. Note that the default 'Personal Edition install' typically places the MobaXterm executable in `C:\Program Files (x86)\Mobatek\MobaXterm Personal Edition`. 
+**Windows:** Install [MobaXterm](http://mobaxterm.mobatek.net), an enhanced terminal with bash for Windows. Note that the default 'Personal Edition install' typically places the MobaXterm executable in `C:\Program Files (x86)\Mobatek\MobaXterm Personal Edition`.  
+
+Please also install the [**Plugin CygUtils**](http://mobaxterm.mobatek.net/CygUtils.plugin). Once downloaded please move to the folder `C:\Program Files (x86)\Mobatek\MobaXterm Personal Edition`.  
 
 **Mac OS X:** You do not need to install anything. You can access bash from the **Terminal** (found in **/Applications/Utilities**). You may want to keep Terminal in your dock for this class.
 
@@ -66,11 +68,11 @@ Regardless of how you choose to install it, please make sure you install Python 
 
 We will teach Python using the IPython notebook, a programming environment that runs in a web browser. For this to work you will need a reasonably up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are all supported (some older browsers, including Internet Explorer version 9 and below, are not).
 
-**Windows:** Download and install [Anaconda](https://store.continuum.io/cshop/anaconda/).
-Download the default Python 2 installer (do not follow the link to version 3). Use all of the defaults for installation except make sure to check _Make Anaconda the default Python_.
+**Windows:** Download and install [Anaconda](http://continuum.io/downloads.html).
+Download the default **Python 2 graphical installer** installer (do not follow the link to version 3). Use all of the defaults for installation except make sure to check _Make Anaconda the default Python_.
 
-**Mac OS X:** Download and install [Anaconda](https://store.continuum.io/cshop/anaconda/).
-Download the default "Mac OS X Python 2.7 Graphical Installer" (do not follow the link to version 3). Use all of the defaults for installation.
+**Mac OS X:** Download and install [Anaconda](http://continuum.io/downloads.html).
+Download the default "Mac OS X **Python 2.7** Graphical Installer" (do not follow the link to version 3). Use all of the defaults for installation.
 
 **Linux:** We recommend the all-in-one scientific Python installer [Anaconda](http://continuum.io/downloads.html).
 
