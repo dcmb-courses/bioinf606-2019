@@ -38,13 +38,15 @@ Ryan Mills (RM)
 
 ### Topics (Tentative):
 
-#### I)   R Language Basics and the RStudio IDE [1:15 hr] [Slides]  
+#### I)   R Language Basics and the RStudio IDE [1:15 hr] [Slides] BG 
+- What is R?
 - Motivation: Why use R?  
 - Getting started with R and the RStudio IDE (integrated development environment).
 - Using R.
   - Getting help.
   - Major data structures (vectors, matrices and data.frames).
-  - Using functions (arguments, vectorizion and re-cycling). 
+  - Using functions (arguments, vectorizion and re-cycling).
+  - R scripts and reproducibility.
   - Simple base graphics (scatterplots, histograms, bar graphs and boxplots).
 
 —- Coffee Break [15 mins] —
@@ -66,7 +68,7 @@ Ryan Mills (RM)
 
 —- Coffee Break [15 mins] —
 
-#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] 
+#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] BG
 - CRAN - the Comprehensive R Archive Network
 - Bioconductor bioinformatics package system.
 
