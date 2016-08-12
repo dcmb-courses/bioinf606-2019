@@ -54,9 +54,9 @@ layout: page
 | :-----: |:--------------:| :----------------------- | 
 | I       | 9:00-10:15 AM  | **R Language Basics and the RStudio IDE** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Loading and Exploring Data with R** | 
+| II      | 10:30-12:00 AM | **R Data Structures and Functions** | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| III     | 1:00-2:15 PM   | **Advanced Data Visualization in R** | 
+| III     | 1:00-2:15 PM   | **Data Exploration and Visualization in R** | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
 | IV      | 2:30-4:00 PM   | **Working with R packages from CRAN & Bioconductor** | 
 

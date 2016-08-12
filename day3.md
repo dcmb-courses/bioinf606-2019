@@ -6,11 +6,9 @@ permalink: /day3/
 
 # Day 3. Data Analysis and Graphics with R
 
-Today we will be working with the R language and environment for statistical computing, data analysis and graphics.  
+R is powerful data programming language and environment for statistical computing, data analysis and graphics. R is typically used to explore and understand data in an open-ended, highly interactive, iterative way. Learning R will give you the freedom to experiment and problem solve during data analysis — exactly what we need as bioinformaticians and data scientists.
 
-Developing code in R is a back-and-forth between writing code in a re-runnable script and exploring data interactively in the R interpreter. To be reproducible, all steps that lead to results you’ll use later must be recorded in an R script that accompanies your analysis and interactive work.  
-
-Before getting our hands dirty working with real data in R, we need to learn the basics of the R language. Even if you’ve poked around in R and seen these concepts before, I would still recommend you follow along and complete the free online interactive learning tutorial [“TryR” (http://tryr.codeschool.com)](http://tryr.codeschool.com). This will take you through a gentle introduction to R syntax and some of the major R data structures (called vectors, matrices and data.frames). 
+Before getting our hands dirty working with real data in R, we need to learn the basics of the R language. Even if you’ve poked around in R and seen these concepts before, I would still recommend you follow along and complete the free online interactive learning tutorial [“TryR” (http://tryr.codeschool.com)](http://tryr.codeschool.com). This will take you through a gentle introduction to R syntax and some of the major R data structures (called vectors, matrices data.frames and lists) that we will cover in more detail in class . 
 
 
 <br>
@@ -21,9 +19,9 @@ Before getting our hands dirty working with real data in R, we need to learn the
 | :-----: |:--------------:| :----------------------- | 
 | I       | 9:00-10:15 AM  | **R Language Basics and the RStudio IDE** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Loading and Exploring Data with R** | 
+| II      | 10:30-12:00 AM | **R Data Structures and Functions** | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| III     | 1:00-2:15 PM   | **Advanced Data Visualization in R** | 
+| III     | 1:00-2:15 PM   | **Data Exploration and Visualization in R** | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
 | IV      | 2:30-4:00 PM   | **Working with R packages from CRAN & Bioconductor** | 
 
@@ -38,7 +36,7 @@ Ryan Mills (RM)
 
 ### Topics (Tentative):
 
-#### I)   R Language Basics and the RStudio IDE [1:15 hr] [Slides] BG 
+#### I)   R Language Basics and the RStudio IDE [1:15 hr] ([Slides](../class-material/slides_day3-1_R.pdf)) ([Exercise-1](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md)) BG 
 - What is R?
 - Motivation: Why use R?  
 - Getting started with R and the RStudio IDE (integrated development environment).
@@ -47,29 +45,30 @@ Ryan Mills (RM)
   - Major data structures (vectors, matrices and data.frames).
   - Using functions (arguments, vectorizion and re-cycling).
   - R scripts and reproducibility.
-  - Simple base graphics (scatterplots, histograms, bar graphs and boxplots).
 
 —- Coffee Break [15 mins] —
 
-#### II)   Loading and Exploring Data with R [1:30 hr] [Slides]
-- Getting your data into R.
-  - Import data in various formats (both local and from online sources).
-- Data wrangling (getting your data into shape).
-- The exploratory data analysis mindset.
-
+#### II)   R Data Structures and Functions [1:30 hr] ([Exercise-2])
+- Major data structures (vectors, matrices, lists and data.frames).
+  - Indexing and vectorizion.
+- Using and writing functions (arguments, more on vectorizion and re-cycling).
 
 —- Lunch Break [1 hr] —
 
-#### III)   Advanced Data Visualization in R
+#### III)   Data Exploration and Visualization in R ([Slides]) ([Exercise-3])
+- Getting your data into R.
+  - Import data in various formats (both local and from online sources).
+- The exploratory data analysis mindset.
 - Data visualization best practices. 
 - R base graphics and the grammar of graphics. 
+  - Simple base graphics (scatterplots, histograms, bar graphs and boxplots).
   - Building more complex charts with ggplot.
 
 
 —- Coffee Break [15 mins] —
 
-#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] BG
-- CRAN - the Comprehensive R Archive Network
+#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] ([Slides](../class-material/slides_day3-4_R.pdf)) BG
+- CRAN - the Comprehensive R Archive Network.
 - Bioconductor bioinformatics package system.
 
 —- End/Wrap-Up —
