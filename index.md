@@ -58,7 +58,7 @@ layout: page
 |         | 12:00-1:00PM   | Lunch                    | 
 | III     | 1:00-2:15 PM   | **Data Exploration and Visualization in R** | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **Working with R packages from CRAN & Bioconductor** | 
+| IV      | 2:30-4:00 PM   | **Working with R Packages** | 
 
 <br>
 
