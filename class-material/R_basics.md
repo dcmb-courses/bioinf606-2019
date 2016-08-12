@@ -1,5 +1,8 @@
-Demo1: R Language Basics
-================
+---
+layout: page
+---
+
+## Demo1: R Language Basics
 Barry Grant &lt; <http://thegrantlab.org> &gt;
 
 ### Background

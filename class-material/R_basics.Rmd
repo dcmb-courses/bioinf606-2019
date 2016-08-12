@@ -1,5 +1,4 @@
 ---
-title: "Demo1: R Language Basics"
 output: github_document
 author: Barry Grant < http://thegrantlab.org >
 ---
@@ -7,6 +6,7 @@ author: Barry Grant < http://thegrantlab.org >
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# Demo1: R Language Basics
 
 ### Background
 
