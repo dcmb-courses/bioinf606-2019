@@ -315,71 +315,7 @@ We can change specific vector elements by combining indexing and assignment.
 
 Our next session will cover more on **vectors**, and the other major R data structures (**matrices**, **data.frames** and **lists**).
 
-### A note about workspace and working directory
-
-One day you will need to quit R, go do something else and return to your analysis later.
-
-One day you will have multiple analyses going that use R and you want to keep them separate.
-
-One day you will need to bring data from the outside world into R and send numerical results and figures from R back out into the world.
-
-To handle these real life situations, you need to make two decisions:
-
--   What about your analysis is "real", i.e. you will save it as your lasting record of what happened?
-
--   Where does your analysis "live"?
-
-#### Workspace, .RData
-
-As a beginning R user, it's OK to consider your workspace "real". *Very soon*, I urge you to evolve to the next level, where you consider your saved R scripts as "real". (In either case, of course the input data is very much real and requires preservation!) With the input data and the R code you used, you can reproduce *everything*. You can make your analysis fancier. You can get to the bottom of puzzling results and discover and fix bugs in your code. You can reuse the code to conduct similar analyses in new projects. You can remake a figure with different aspect ratio or save is as TIFF instead of PDF. You are ready to take questions. You are ready for the future.
-
-If you regard your workspace as "real" (saving and reloading all the time), if you need to redo analysis ... you're going to either redo a lot of typing (making mistakes all the way) or will have to mine your R history for the commands you used. Rather than [becoming an expert on managing the R history](https://support.rstudio.com/hc/en-us/articles/200526217-Command-History), a better use of your time and psychic energy is to keep your "good" R code in a script for future reuse.
-
-Because it can be useful sometimes, note the commands you've recently run appear in the History pane.
-
-But you don't have to choose right now and the two strategies are not incompatible. Let's demo the save / reload the workspace approach.
-
-Upon quitting R, you have to decide if you want to save your workspace, for potential restoration the next time you launch R. Depending on your set up, R or your IDE, e.g. RStudio, will probably prompt you to make this decision.
-
-Quit R/Rstudio, either from the menu, using a keyboard shortcut, or by typing `q()` in the Console. You'll get a prompt like this:
-
-> Save workspace image to ~/.Rdata?
-
-*Note where the workspace image is to be saved* and then click `Save`.
-
-Using your favorite method, visit the directory where image was saved and verify there is a file named `.RData`. You will also see a file `.Rhistory`, holding the commands submitted in your recent session.
-
-Restart RStudio. In the Console you will see a line like this:
-
-    [Workspace loaded from ~/.RData]
-
-indicating that your workspace has been restored. Look in the Workspace pane and you'll see the same objects as before. In the History tab of the same pane, you should also see your command history.You're back in business. This way of starting and stopping analytical work will not serve you well for long but it's a start.
-
-#### Working directory
-
-Any process running on your computer has a notion of its "working directory". In R, this is where R will look, by default, for files you ask it to load. It also where, by default, any files you write to disk will go. Chances are your current working directory is the directory we inspected above, i.e. the one where RStudio wanted to save the workspace.
-
-You can explicitly check your working directory with:
-
-``` r
-getwd()
-```
-
-It is also displayed at the top of the RStudio console.
-
-As a beginning R user, it's OK let your home directory or any other weird directory on your computer be R's working directory. *Very soon*, I urge you to evolve to the next level, where you organize your analytical projects into directories and, when working on project A, set R's working directory to the associated directory.
-
-**Although I do not recommend it**, in case you're curious, you can set R's working directory at the command line like so:
-
-``` r
-setwd("~/myCoolProject")
-```
-
-**Although I do not recommend it**, you can also use RStudio's Files pane to navigate to a directory and then set it as working directory from the menu: Session --&gt; Set Working Directory --&gt; To Files Pane Location. (You'll see even more options there). Or within the Files pane, choose **More** and **Set As Working Directory**.
-
-But there's a better way. A way that also puts you on the path to managing your R work like an expert.
-
-### RStudio projects
+### A note about RStudio projects
 
 Keeping all the files associated with a project organized together -- input data, R scripts, analytical results, figures -- is such a wise and common practice that RStudio has built-in support for this via its *projects*.
 
@@ -387,7 +323,7 @@ Keeping all the files associated with a project organized together -- input data
 
 Let's make one to use for the rest of this class. Do this: File &gt; New Project .... The directory name you choose here will be the project name. Call it whatever you want (or follow me for convenience *Desktop/bootcamp/R/session1*).
 
-### Miscellaneous notes
+### Miscellaneous points
 
 It is traditional to save R scripts with a `.R` or `.r` suffix. Follow this convention unless you have some extraordinary reason not to.
 
