@@ -40,7 +40,7 @@ Chris Scheller (CS)
 
 ### Topics:
 
-### I)   Version Control with Git [1:15 hr]  BG ([Slides](../class-material/slides_day3-1_git.pdf))
+### I)   Version Control with Git [1:15 hr]  BG ([Slides](../class-material/slides_day4-1_git.pdf))
 - What is VCS and Git?,  (10-15 mins)
 - Motivation: Why use Git?
  - Project snapshot history with rollbacks, Track changes from others, Sharing and updating mechanism, Keeping work organized and available.
@@ -53,7 +53,7 @@ Chris Scheller (CS)
 
 —- Coffee Break [15 mins] —
 
-### II)   Collaborating with GitHub [1:30 hr]  BG ([Slides](../class-material/slides_day3-2_github.pdf)) ([Tutoral](https://github.com/bioboot/demo2-github))
+### II)   Collaborating with GitHub [1:30 hr]  BG ([Slides](../class-material/slides_day4-2_github.pdf)) ([Tutoral](https://github.com/bioboot/demo2-github))
 - Online Remote Repositories GitHub & Bitbucket
  - Paradigm shift in software development (permissions and open development)
  - The GitHub steam-train and StackOverflow 
