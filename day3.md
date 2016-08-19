@@ -48,7 +48,7 @@ Ryan Mills (RM)
 
 —- Coffee Break [15 mins] —
 
-#### II)   R Data Structures and Functions [1:30 hr] ([Exercise-2])
+#### II)   R Data Structures and Functions [1:30 hr] ([Slides](../class-material/slides_day3-2_R.pdf)) ([Exercise-2])
 - Major data structures (vectors, matrices, lists and data.frames).
   - Indexing and vectorizion.
 - Using and writing functions (arguments, more on vectorizion and re-cycling).
