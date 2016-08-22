@@ -14,7 +14,7 @@ layout: page
 
 **When:** August 22-26 (2016), 9:00 AM - 4:00 PM 
 
-**Where:** 3755 SPH1 (School of Public Health building 1) [Map](https://www.google.com/maps/dir///@42.2807432,-83.7302821,19z)
+**Where:** 3755 SPH1 (School of Public Health building 1) [Map](https://goo.gl/maps/kzaA1T9mPK22)
 
 **N.B.** Please help us improve this course by completing this [pre-course questionnaire](http://tinyurl.com/bioboot-questions-2016). 
 
