@@ -69,6 +69,11 @@ Jacob Kitzman (JK)
 
 <br>
 
+### Datasets
+
+[Cereal comma-delimited table](../class-material/cereals.csv)
+[Cereal tab-delimited table](../class-material/cereals.tsv)
+
 ### Reference material
 [Class Handout](../class-material/handout_day2-2_python.pdf)
   
