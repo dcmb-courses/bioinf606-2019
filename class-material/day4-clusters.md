@@ -52,14 +52,14 @@ layout: page
   - In either:
     - **Shift-Enter** : run the current cell
 
-  - Remember, you can run commands out of order in the notebook.
+- Remember, you can run commands out of order in the notebook.
 ___
-### For situations outside of UM where ARC Connect is not available, we have provided instructions for using SSH tunneling, as reference:
+#### For situations outside of UM where ARC Connect is not available, we have provided instructions for using SSH tunneling, as reference:
 
-  - Start a notebook server 
-  - Notes:
-    1. you need to know which host you're on.   The command line prompt will show this (e.g., <B>flux-login3</B>)
-    2. you need to know which port your instance of ipython listens to.  The first few lines of output from ipython notebook will list this for you.
+- Start a notebook server 
+- Notes:
+  1. you need to know which host you're on.   The command line prompt will show this (e.g., <B>flux-login3</B>)
+  2. you need to know which port your instance of ipython listens to.  The first few lines of output from ipython notebook will list this for you.
 
   <pre>
   remills@<b>flux-login3</b>:/scratch/biobootcamp_fluxod/remills/biobootcamp$ ipython notebook --ip=<B>flux-login3</b> --no-browser
@@ -72,14 +72,14 @@ ___
   [I 13:26:19.473 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
   </pre>
 
-  - A word of warning: in general, running on the head node of the flux cluster is not a good practice, because the head node controls the job queue for the entire cluster. Instead you would want to enter the queue, login to a compute node, and do your work there.
+- A word of warning: in general, running on the head node of the flux cluster is not a good practice, because the head node controls the job queue for the entire cluster. Instead you would want to enter the queue, login to a compute node, and do your work there.
 
-  - Now, your own ipython server is running on flux.  But you will need to open a tunnel to get there.  The below command will securely connect port 8889 on the computer flux-login3 to port 9000 on my computer. 
+- Now, your own ipython server is running on flux.  But you will need to open a tunnel to get there.  The below command will securely connect port 8889 on the computer flux-login3 to port 9000 on my computer. 
 
    <pre>
    ssh -L localhost:9000:<b>flux-login3:8889</b> YOURNAME@flux-login.engin.umich.edu
    </pre>
 
-  - Navigate to http://localhost:9000 and make a new notebook
+- Navigate to http://localhost:9000 and make a new notebook
 
 
