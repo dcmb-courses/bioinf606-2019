@@ -62,7 +62,7 @@ Jacob Kitzman (JK)
 #### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] JK 
 - Calling external programs 
 - Tabular data analysis with pandas ([Handout 1](../class-material/day2-python-pandas.pdf))
-- Plotting using matplotlib and other utilities ([Handout 2](../class-material/day2-visualization.pdf))
+- Plotting using matplotlib and other utilities ([Handout 2](../class-material/day2-visualization.pdf), and [iPython notebook](../class-material/day2_visualization_with_seaborn.ipynb))
 
 —- End/Wrap-Up —
 
@@ -73,6 +73,10 @@ Jacob Kitzman (JK)
 
 [Cereal comma-delimited table](../class-material/cereals.csv)
 [Cereal tab-delimited table](../class-material/cereals.tsv)
+
+[Gene expression table](../class-material/GTEx_Analysis_v6p_RNA-seq_RNA-SeQCv1.1.8_gene_median_rpkm.gct.gz)
+
+
 
 ### Reference material
 [Class Handout](../class-material/handout_day2-2_python.pdf)
