@@ -32,7 +32,7 @@ layout: page
   </pre>
 
 - For this exercise, we will need to run jupyter notebook on flux. Typically, you would need to start the notebook as a FLUX job, take note of the hostname and IP address, and set up an SSH tunnel to be able to use the notebook on your local computer. However, we can now make use of an internal University of Michigan tool called [ARC Connect](https://connect.arc-ts.umich.edu/) to do of all of this far us. Navigate to this URL and login with your UM account. Whem prompted, complete the 2-factor authentication. From the ARC Connect screen, choose:
-- 
+
   - Select *biobootcamp_fluxod* under Account
   - Select *Jupyter Notebook* under Sesson type.
   - All other values can remain at default
