@@ -59,10 +59,10 @@ Jacob Kitzman (JK)
 
 —- Coffee Break [15 mins] —  
 
-#### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] JK
+#### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] JK 
 - Calling external programs 
-- Plotting using matplotlib and other utilities
-- Demonstration of iPython notebooks
+- Tabular data analysis with pandas ([Handout 1](../class-material/day2-python-pandas.pdf))
+- Plotting using matplotlib and other utilities ([Handout 2](../class-material/day2-visualization.pdf))
 
 —- End/Wrap-Up —
 
