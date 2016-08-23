@@ -328,7 +328,7 @@ Keeping all the files associated with a project organized together -- input data
 
 Let's make one to use for the rest of this class. Do this: File &gt; New Project .... The directory name you choose here will be the project name. Call it whatever you want (or follow me for convenience *Desktop/bootcamp/R/session1*).
 
-### Miscellaneous points
+### 8. Miscellaneous points
 
 It is traditional to save R scripts with a `.R` or `.r` suffix. Follow this convention unless you have some extraordinary reason not to.
 
@@ -343,13 +343,13 @@ This work-flow will serve you well in the future:
 -   Keep scripts there; edit them, run them in bits or as a whole from there
 -   Keep outputs there (like the PDF written above)
 
-Avoid using the mouse for pieces of your analytical work-flow, such as loading a dataset or saving a figure. Terribly important for reproducibility and for making it possible to retrospectively determine how a numerical table or PDF was actually produced (searching on local disk on filename, among `.R` files, will lead to the relevant script).
+> Avoid using the mouse for pieces of your analytical work-flow, such as loading a dataset or saving a figure. Terribly important for reproducibility and for making it possible to retrospectively determine how a numerical table or PDF was actually produced (searching on local disk on filename, among `.R` files, will lead to the relevant script).
 
 Many long-time users never save the workspace, never save `.RData` files (I'm one of them), never save or consult the history. Once/if you get to that point, there are options available in RStudio to disable the loading of .RData and permanently suppress the prompt on exit to save the workspace (go to Tools-&gt;Options-&gt;General).
 
 For the record, when loading data into R and/or writing outputs to file, you can always specify the absolute path and thereby insulate yourself from the current working directory. This is rarely necessary when using RStudio Projects properly
 
-#### 8. Reproducibility and sessionInfo()
+### 9. Reproducibility and sessionInfo()
 
 Versions of R and any R packages installed change over time. This can lead to reproducibility headaches, as the results of your analyses may change with the changing version of R and R packages. Solving these issues is an area of ongoing development (see, for example, the packrat package). At the very least, you should always record the versions of R and any packages you use for an analysis. R actually makes this incredibly easy to do—just call the `sessionInfo()` function:
 
