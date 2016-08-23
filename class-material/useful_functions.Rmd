@@ -1,6 +1,6 @@
 ---
-title: "Useful R functions for working with strings"
 output: github_document
+author: Barry Grant < http://thegrantlab.org >
 ---
 
 ```{r setup, include=FALSE}
