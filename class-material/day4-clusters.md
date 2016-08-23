@@ -32,14 +32,14 @@ layout: page
   </pre>
 
 - For this exercise, we will need to run jupyter notebook on flux. Typically, you would need to start the notebook as a FLUX job, take note of the hostname and IP address, and set up an SSH tunnel to be able to use the notebook on your local computer. However, we can now make use of an internal University of Michigan tool called [ARC Connect](https://connect.arc-ts.umich.edu/) to do of all of this far us. Navigate to this URL and login with your UM account. Whem prompted, complete the 2-factor authentication. From the ARC Connect screen, choose:
-  -Select *biobootcamp_fluxod* under Account
-  -Select *Jupyter Notebook* under Sesson type.
-  -All other values can remain at default
-  -Press *Submit your job* and wait for it to be allocated (it might take a few minutes)
+  - Select *biobootcamp_fluxod* under Account
+  - Select *Jupyter Notebook* under Sesson type.
+  - All other values can remain at default
+  - Press *Submit your job* and wait for it to be allocated (it might take a few minutes)
  
 - Once the session is active, press *Open in Browser* to being your Jupyter session. Click on the "House" to take you to the root directory and navigate to to the folder you made earlier, /scratch/biobootcamp_fluxod/UNIQUENAME/day4_cluster/read_counts_by_region/ and load *read_counts_by_region.ipynb*. 
 ___
-- For situations outside of UM where ARC Connect is not available, we have provided instructions for use SSH tunneling as reference:
+- For situations outside of UM where ARC Connect is not available, we have provided instructions for using SSH tunneling, as reference:
 
   - Start a notebook server 
   - Notes:
