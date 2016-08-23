@@ -40,8 +40,21 @@ layout: page
  
 - Once the session is active, press *Open in Browser* to being your Jupyter session. Click on the "House" to take you to the root directory and navigate to to the folder you made earlier, /scratch/biobootcamp_fluxod/UNIQUENAME/day4_cluster/read_counts_by_region/ and load *read_counts_by_region.ipynb*. 
 
+- Ipython notebook reminders:
+
+  - Green box  - marks active cell. You are in EDIT mode.
+  - Hit **escape** to exit mode mode and go to COMMAND mode.
+  - In command mode:
+    - **A** : insert new cell above
+    - **B** : insert new cell below
+    - **Enter** : edit the currently selected cell
+    - **up/down arrow** : navigate up or down
+  - In either:
+    - **Shift-Enter** : run the current cell
+
+  - Remember, you can run commands out of order in the notebook.
 ___
-- For situations outside of UM where ARC Connect is not available, we have provided instructions for using SSH tunneling, as reference:
+For situations outside of UM where ARC Connect is not available, we have provided instructions for using SSH tunneling, as reference:
 
   - Start a notebook server 
   - Notes:
@@ -68,19 +81,5 @@ ___
    </pre>
 
   - Navigate to http://localhost:9000 and make a new notebook
-
-- Ipython notebook reminders:
-
-  - Green box  - marks active cell. You are in EDIT mode.
-  - Hit **escape** to exit mode mode and go to COMMAND mode.
-  - In command mode:
-    - **A** : insert new cell above
-    - **B** : insert new cell below
-    - **Enter** : edit the currently selected cell
-    - **up/down arrow** : navigate up or down
-  - In either:
-    - **Shift-Enter** : run the current cell
-
-  - Remember, you can run commands out of order in the notebook.
 
 
