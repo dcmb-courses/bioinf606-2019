@@ -54,7 +54,7 @@ layout: page
 
   - Remember, you can run commands out of order in the notebook.
 ___
-For situations outside of UM where ARC Connect is not available, we have provided instructions for using SSH tunneling, as reference:
+### For situations outside of UM where ARC Connect is not available, we have provided instructions for using SSH tunneling, as reference:
 
   - Start a notebook server 
   - Notes:
