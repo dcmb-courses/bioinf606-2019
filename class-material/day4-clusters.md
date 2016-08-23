@@ -22,17 +22,24 @@ layout: page
   cd day4_cluster
   </pre>
 
-- download the [data](https://github.com/bioboot/web-2015/raw/gh-pages/class-material/read_counts_by_region.tar.gz) for today to FLUX
-  - Note that you can view a render of this [notebook](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/read_counts_by_region.ipynb) directly on GitHub as well!
+- download the [data](https://github.com/bioboot/web-2016/raw/gh-pages/class-material/read_counts_by_region.tar.gz) for today to FLUX
+  - Note that you can view a render of this [notebook](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/read_counts_by_region.ipynb) directly on GitHub as well!
 
   <pre>
-  wget https://github.com/bioboot/web-2015/raw/gh-pages/class-material/read_counts_by_region.tar.gz
+  wget https://github.com/bioboot/web-2016/raw/gh-pages/class-material/read_counts_by_region.tar.gz
   tar zxvf read_counts_by_region.tar.gz
   cd read_counts_by_region
   </pre>
 
-- For this exercise, we will need to run ipython notebook on flux. As with yesterday, start a notebook server with the following commands
-
+- For this exercise, we will need to run jupyter notebook on flux. Typically, you would need to start the notebook as a FLUX job, take note of the hostname and IP address, and set up an SSH tunnel to be able to use the notebook on your local computer. However, we can now make use of an internal University of Michigan tool called [ARC Connect](https://connect.arc-ts.umich.edu/) to do of all of this far us. Navigate to this URL and login with your UM account. Whem prompted, complete the 2-factor authentication. From the ARC Connect screen, choose:
+  -Select *biobootcamp_fluxod* under Account
+  -Select *Jupyter Notebook* under Sesson type.
+  -All other values can remain at default
+  -Press *Submit your job* and wait for it to be allocated (it might take a few minutes)
+ 
+- Once the session is active, press *Open in Browser* to being your Jupyter session. Click on the "House" to take you to the root directory and navigate to to the folder you made earlier, /scratch/biobootcamp_fluxod/UNIQUENAME/day4_cluster/read_counts_by_region/ and load *read_counts_by_region.ipynb*. 
+___
+- For situations outside of UM where ARC Connect is not available, we have provided instructions for use SSH tunneling as reference:
 
   - Start a notebook server 
   - Notes:
@@ -57,7 +64,6 @@ layout: page
    <pre>
    ssh -L localhost:9000:<b>flux-login3:8889</b> YOURNAME@flux-login.engin.umich.edu
    </pre>
-
 
   - Navigate to http://localhost:9000 and make a new notebook
 
