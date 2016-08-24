@@ -77,6 +77,9 @@ Ryan Mills (RM)
 
 <br>
 
+### Datasets
+[JIF data](../class-material/choosy_moms.tsv)
+
 ### Reference material
 [RStudio cheatsheet](http://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf):  A well designed reference card for RStudio features.  
 
