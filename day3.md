@@ -45,17 +45,18 @@ Ryan Mills (RM)
   - Major data structures (vectors, matrices and data.frames).
   - Using functions (arguments, vectorizion and re-cycling).
   - R scripts and reproducibility.
+  - Optional extra: [working with strings](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/useful_functions.md).
 
 —- Coffee Break [15 mins] —
 
-#### II)   R Data Structures and Functions [1:30 hr] ([Slides](../class-material/slides_day3-2_R.pdf)) ([Exercise-2])
+#### II)   R Data Structures and Functions [1:30 hr] ([Slides](../class-material/slides_day3-2_R.pdf))  
 - Major data structures (vectors, matrices, lists and data.frames).
   - Indexing and vectorizion.
 - Using and writing functions (arguments, more on vectorizion and re-cycling).
 
 —- Lunch Break [1 hr] —
 
-#### III)   Data Exploration and Visualization in R ([Slides]) ([Exercise-3])
+#### III)   Data Exploration and Visualization in R ([Slides])
 - Getting your data into R.
   - Import data in various formats (both local and from online sources).
 - The exploratory data analysis mindset.
@@ -81,3 +82,8 @@ Ryan Mills (RM)
 [Try R](http://tryr.codeschool.com): An excellent interactive online R tutorial for beginners.   
 
 [R for Data Science](http://r4ds.had.co.nz): A brand new O’Reilly book, available free online, that will teach you how to do data science with R.  
+
+Class notes on [R language basics](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md).  
+
+Class notes on [useful R functions for working with strings](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/useful_functions.md).  
+

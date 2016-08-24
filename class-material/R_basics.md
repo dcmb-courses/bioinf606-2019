@@ -5,13 +5,13 @@ layout: page
 ## Demo1: R Language Basics
 Barry Grant &lt; <http://thegrantlab.org> &gt;
 
-### Background
+### 1. Background
 
 R is powerful data programming language that you can use to explore and understand data in an open-ended, highly interactive, iterative way. Learning R will give you the freedom to experiment and problem solve during data analysis — exactly what we need as bioinformaticians.
 
 Before delving into working with real data in R, we need to learn the basics of the R language. In this section, we’ll learn how to do simple calculations in R, assign values to variables, and call functions. Then, we’ll look at R’s vectors, vector data types, and vectorization. Vectors and vectorization underpin how we approach many problems in R.
 
-### Simple Calculations
+### 2. Simple Calculations
 
 Open RStudio, or a terminal R prompt, and try typing the basic arithmetic below. If you are using RStudio we will be typing directly into the *Console* that contains the live R process.
 
@@ -39,6 +39,9 @@ Open RStudio, or a terminal R prompt, and try typing the basic arithmetic below.
 
     ## [1] 1.666667
 
+
+### 3. Saving your answers - object assignment
+
 Lets make an assignment and then inspect the object you just created.
 
 ``` r
@@ -61,6 +64,8 @@ You will make lots of assignments and the operator `<-` is a pain to type. Don't
 Notice that RStudio automagically surrounds `<-` with spaces, which demonstrates a useful code formatting practice. Code is miserable to read on a good day. Give your eyes a break and use spaces.
 
 RStudio offers many handy [keyboard shortcuts](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts). Also, Alt+Shift+K brings up a keyboard shortcut reference card.
+
+#### A note about object names
 
 Object names cannot start with a digit and cannot contain certain other characters such as a comma or a space. You will be wise to adopt a [convention for demarcating words](http://en.wikipedia.org/wiki/Snake_case) in names.
 
@@ -100,7 +105,7 @@ R_rocks
 
 > **Conclusion:** When we programm we enter into an implicit contract with the computer. The computer will do tedious computation for you. In return, you will be completely precise in your instructions. Typos matter. Case matters. **Therefore get better at typing!**
 
-### Calling Functions
+### 4. Calling Functions
 
 R has a mind-blowing collection of built-in functions that are accessed like so:
 
@@ -148,7 +153,7 @@ date()
 
     ## [1] "Fri Aug 12 14:52:55 2016"
 
-### Getting help in R
+### 5. Getting help in R
 
 As would be expected from a sophisticated scientific and statistical computing language, R has oodles of functions—far more than any reasonable human can expect to learn and remember. Consequently, you’ll need to master two of the most practical R skills:
 
@@ -205,7 +210,7 @@ R also has functions for listing all functions in a package (e.g., `library(help
 
 Later today we will cover a special form of package documentation called **vignettes**. These are basically short task oriented introductions and tutorials for a particular set of related functions.
 
-### Vectors, Vectorization, and Indexing
+### 6. Vectors, Vectorization, and Indexing
 
 Arguably the most important feature of the R language is its vectors. A vector is a container of contiguous data. Unlike most languages, R does not have a type for a single value (known as a scalar) such as 3.1 or “AGCTACGACT.” Rather, these values are stored in a vector of length 1. We can verify that values like 3.1 are vectors of length 1 by calling the function length() (which returns the length of a vector) on them:
 
@@ -315,7 +320,7 @@ We can change specific vector elements by combining indexing and assignment.
 
 Our next session will cover more on **vectors**, and the other major R data structures (**matrices**, **data.frames** and **lists**).
 
-### A note about RStudio projects
+### 7. A note about RStudio projects
 
 Keeping all the files associated with a project organized together -- input data, R scripts, analytical results, figures -- is such a wise and common practice that RStudio has built-in support for this via its *projects*.
 
@@ -323,7 +328,7 @@ Keeping all the files associated with a project organized together -- input data
 
 Let's make one to use for the rest of this class. Do this: File &gt; New Project .... The directory name you choose here will be the project name. Call it whatever you want (or follow me for convenience *Desktop/bootcamp/R/session1*).
 
-### Miscellaneous points
+### 8. Miscellaneous points
 
 It is traditional to save R scripts with a `.R` or `.r` suffix. Follow this convention unless you have some extraordinary reason not to.
 
@@ -338,13 +343,13 @@ This work-flow will serve you well in the future:
 -   Keep scripts there; edit them, run them in bits or as a whole from there
 -   Keep outputs there (like the PDF written above)
 
-Avoid using the mouse for pieces of your analytical work-flow, such as loading a dataset or saving a figure. Terribly important for reproducibility and for making it possible to retrospectively determine how a numerical table or PDF was actually produced (searching on local disk on filename, among `.R` files, will lead to the relevant script).
+> Avoid using the mouse for pieces of your analytical work-flow, such as loading a dataset or saving a figure. Terribly important for reproducibility and for making it possible to retrospectively determine how a numerical table or PDF was actually produced (searching on local disk on filename, among `.R` files, will lead to the relevant script).
 
 Many long-time users never save the workspace, never save `.RData` files (I'm one of them), never save or consult the history. Once/if you get to that point, there are options available in RStudio to disable the loading of .RData and permanently suppress the prompt on exit to save the workspace (go to Tools-&gt;Options-&gt;General).
 
 For the record, when loading data into R and/or writing outputs to file, you can always specify the absolute path and thereby insulate yourself from the current working directory. This is rarely necessary when using RStudio Projects properly
 
-#### Reproducibility and sessionInfo()
+### 9. Reproducibility and sessionInfo()
 
 Versions of R and any R packages installed change over time. This can lead to reproducibility headaches, as the results of your analyses may change with the changing version of R and R packages. Solving these issues is an area of ongoing development (see, for example, the packrat package). At the very least, you should always record the versions of R and any packages you use for an analysis. R actually makes this incredibly easy to do—just call the `sessionInfo()` function:
 

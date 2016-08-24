@@ -70,7 +70,7 @@ Jacob Kitzman (JK)
 
 ### Datasets
 
-[Cereal comma-delimited table](../class-material/cereals.csv)
+[Cereal comma-delimited table](../class-material/cereals.csv)  
 [Cereal tab-delimited table](../class-material/cereals.tsv)
 
 [Gene expression table](../class-material/GTEx_Analysis_v6p_RNA-seq_RNA-SeQCv1.1.8_gene_median_rpkm.gct.gz)
