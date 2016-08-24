@@ -58,7 +58,9 @@ Please help us improve this course by completing this [questionnaire](http://tin
 
 
 <br>
-
+- Using what you've learned the previous days, login to FLUX, navigate to your personal /scratch folder, and make a new directory called 'day5'. 
+- Download today's ipython notebook into this directory using wget:
+  -*wget https://raw.githubusercontent.com/bioboot/web-2016/gh-pages/class-material/Day5.ipynb*
 - For this exercise, we will need to run ipython notebook on flux. As with Day 4, we can now make use of an internal University of Michigan tool called [ARC Connect](https://connect.arc-ts.umich.edu/) to do of all of this far us. Navigate to this URL and login with your UM account. When prompted, complete the 2-factor authentication. From the ARC Connect screen, choose:
 
   - Select *biobootcamp_fluxod* under Account
