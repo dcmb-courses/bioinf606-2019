@@ -53,7 +53,6 @@ layout: page
     - **Shift-Enter** : run the current cell
 
 - Remember, you can run commands out of order in the notebook.
-<br>
 
 ___
 
