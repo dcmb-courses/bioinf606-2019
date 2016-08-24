@@ -60,12 +60,11 @@ Jacob Kitzman (JK)
 —- Coffee Break [15 mins] —  
 
 #### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] JK 
-- Calling external programs 
-- Tabular data analysis with pandas ([Handout 1](../class-material/day2-python-pandas.pdf))
-- Plotting using matplotlib and other utilities ([Handout 2](../class-material/day2-visualization.pdf), and [iPython notebook](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/day2_visualization_with_seaborn.ipynb))
+- Calling external programs ([iPython notebook](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/day2_system_calls_in_ipython.ipynb))
+- Tabular data analysis with pandas ([Handout 1](../class-material/day2-python-pandas.pdf) and [iPython notebook](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/day2_pandas_demo.ipynb))
+- Plotting using matplotlib and other utilities ([Handout 2](../class-material/day2-visualization.pdf), [iPython notebook #1](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/day2_matplotlib_demo.ipynb), [iPython notebook #2](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/day2_visualization_with_seaborn.ipynb))
 
 —- End/Wrap-Up —
-
 
 <br>
 
