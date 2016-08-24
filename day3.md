@@ -30,6 +30,7 @@ Before getting our hands dirty working with real data in R, we need to learn the
 
 ### Instructors:
 Barry Grant (BJG)  
+Jacob Kitzman (JOK)
 Ryan Mills (RM)  
 
 <br>
@@ -56,11 +57,11 @@ Ryan Mills (RM)
 
 —- Lunch Break [1 hr] —
 
-#### III)   Data Exploration and Visualization in R ([Slides])
+#### III)   Data Exploration and Visualization in R ([Slides](../class-material/day3-R-import-and-viz.pdf))  JOK
 - Getting your data into R.
   - Import data in various formats (both local and from online sources).
 - The exploratory data analysis mindset.
-- Data visualization best practices. 
+- Data visualization best practices. 	
 - R base graphics and the grammar of graphics. 
   - Simple base graphics (scatterplots, histograms, bar graphs and boxplots).
   - Building more complex charts with ggplot.
