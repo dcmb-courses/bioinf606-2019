@@ -4,10 +4,7 @@ layout: page
 
 ### V-1. Download example dataset and notebooks
 
-- Login to FLUX and set up the same path we used yesterday when exploring genomic data formats
-  <pre>
-  export PATH=/home/hmkang/bioboot/bin:${PATH} 
-  export PATH=/scratch/biobootcamp_fluxod/remills/anaconda/bin:${PATH}
+- Login to FLUX using your terminal software
 
 - Navigate to your bootcamp scratch directory (cd /scratch/biobootcamp_fluxod/UNIQUENAME). If a directory with your uniquename does not exist, make it using
 
@@ -18,11 +15,11 @@ layout: page
 - Once in your directory, create a subdirectory for today's segment
 
   <pre>
-  mkdir day4_cluster
-  cd day4_cluster
+  mkdir day4
+  cd day4
   </pre>
 
-- download the [data](https://github.com/bioboot/web-2016/raw/gh-pages/class-material/read_counts_by_region.tar.gz) for today to FLUX
+- download and extract the [data](https://github.com/bioboot/web-2016/raw/gh-pages/class-material/read_counts_by_region.tar.gz) for today to FLUX
   - Note that you can view a render of this [notebook](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/read_counts_by_region.ipynb) directly on GitHub as well!
 
   <pre>
@@ -31,14 +28,14 @@ layout: page
   cd read_counts_by_region
   </pre>
 
-- For this exercise, we will need to run Jupyter notebook on flux. Typically, you would need to start the notebook as a FLUX job, take note of the hostname and IP address, and set up an SSH tunnel to be able to use the notebook on your local computer. However, we can now make use of an internal University of Michigan tool called [ARC Connect](https://connect.arc-ts.umich.edu/) to do of all of this far us. Navigate to this URL and login with your UM account. When prompted, complete the 2-factor authentication. From the ARC Connect screen, choose:
+- For this exercise, we will need to run Jupyter notebook on FLUX. Typically, you would need to start the notebook as a FLUX job, take note of the hostname and IP address, and set up an SSH tunnel to be able to use the notebook on your local computer. However, we can now make use of an internal University of Michigan tool called [ARC Connect](https://connect.arc-ts.umich.edu/) to do of all of this far us. Navigate to this URL and login with your UM account. When prompted, complete the 2-factor authentication. From the ARC Connect screen, choose:
 
   - Select *biobootcamp_fluxod* under Account
   - Select *Jupyter Notebook* under Sesson type.
   - All other values can remain at default
   - Press *Submit your job* and wait for it to be allocated (it might take a few minutes)
  
-- Once the session is active, press *Open in Browser* to being your Jupyter session. Click on the "House" to take you to the root directory and navigate to to the folder you made earlier, /scratch/biobootcamp_fluxod/UNIQUENAME/day4_cluster/read_counts_by_region/ and load *read_counts_by_region.ipynb*. 
+- Once the session is active, press *Open in Browser* to being your Jupyter session. Click on the "House" to take you to the root directory and navigate to to the folder you made earlier, /scratch/biobootcamp_fluxod/UNIQUENAME/day4/read_counts_by_region/ and load *read_counts_by_region.ipynb*. 
 
 - Ipython notebook reminders:
 
