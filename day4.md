@@ -67,7 +67,7 @@ Chris Scheller (CS)
 
 —- Lunch Break [1 hr] —
 
-### III)   Concepts in Cluster Computing [1.15 hr]  DM  
+### III)   Concepts in Cluster Computing [1.15 hr]  DM  ([Slides](../class-material/slides_day4_flux.pdf))
 - Connecting to FLUX
 - Why cluster computing? 
 - Cluster job submission
