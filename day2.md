@@ -80,6 +80,8 @@ Jacob Kitzman (JK)
 ### Reference material
 [Class Handout](../class-material/handout_day2-2_python.pdf)
   
+[CodeAcademy](https://www.codecademy.com/learn/python) An interactive online python tutorial for beginners - thanks Adam for sharing this.  
+
 [Python Quick Referene](http://rgruet.free.fr/)  
 [Matplotlib Gallery](http://matplotlib.org/gallery.html)  
 [iPython Notebooks](http://ipython.org/notebook.html)
