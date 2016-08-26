@@ -33,7 +33,7 @@ Hui Jiang (HJ)
 <br>
 
 ### Class Questionnaire
-Please help us improve this course by completing this [questionnaire](http://tinyurl.com/bioboot-questions). 
+Please help us improve this course by completing this [questionnaire](http://tinyurl.com/bioboot-2016). 
 
 <br>
 
