@@ -92,7 +92,6 @@ layout: page
 
 
 
-<!--- Uncomment at end of course...
 <br>
 <a name="other"></a>
 
@@ -104,6 +103,13 @@ layout: page
 **BIOINF-525**: Foundations of Bioinformatics & Systems Biology  
 (Winter term)   
 <https://bioboot.github.io/bioinf525_w16/>
+
+**Software Carpentry**: Occasional Workshops  
+(Non planned for this year at UM unfortunately) 
+<http://software-carpentry.org>  
+
+<!--- Uncomment at end of course...
+Add more courses when we find them.
 -->
 
 
