@@ -104,6 +104,14 @@ layout: page
 (Winter term)   
 <https://bioboot.github.io/bioinf525_w16/>
 
+**HG-551**: Computational Genomics  
+(Winter term)   
+<https://medicine.umich.edu/sites/default/files/content/downloads/HG551-Syllabus-2016.pdf>  
+
+**ARC:** Computing Workshops  
+(Throughout the year)   
+<http://cscar.research.umich.edu/events/category/workshops/> 
+
 **Software Carpentry**: Occasional Workshops  
 (Non planned for this year at UM unfortunately) 
 <http://software-carpentry.org>  
