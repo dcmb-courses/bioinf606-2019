@@ -98,7 +98,7 @@ layout: page
 ## Other courses 
 **BIOINF-575**: Programing Lab in Bioinformatics  
 (Winter term)   
-<http://tinyurl.com/bioboot-4>
+<https://medicine.umich.edu/dept/dcmb/graduate-education/course-descriptions>
 
 **BIOINF-525**: Foundations of Bioinformatics & Systems Biology  
 (Winter term)   
