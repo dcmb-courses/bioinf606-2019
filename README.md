@@ -16,11 +16,11 @@ setup on your local machine):
 
 Git clone old site to a new dir
 
-  cd ~/Dropbox/Teaching
-  mkdir Bootcamp_2017
-  cd Bootcamp_2017
-  git clone git@github.com:bioboot/web-2016.git web-2017
-  cd web-2017/
+  	cd ~/Dropbox/Teaching
+  	mkdir Bootcamp_2017
+  	cd Bootcamp_2017
+  	git clone git@github.com:bioboot/web-2016.git web-2017
+  	cd web-2017/
   
 Update `_config.yml` and `index.md`. IN particular, rembember to change the dates and the pre-course questionnaire and post-course evaluation forms. Go through the regular `git add`, `git commit -m` cycle. But don’t yet push to GitHub (as we will want a new repo for this years class).
   
@@ -29,13 +29,13 @@ On GitHub make a new repo (Use the “+” sign and name it `web-2017` to match 
 
 Then on the local machine change your remotes to point to this new repo.
 
-  git remotes -v   
-  git remote rm origin  
+  	git remotes -v   
+  	git remote rm origin  
 
 Now add our new repo and push changes:  
 
-  git remote add origin git@github.com:bioboot/web-2017.git  
-  git push -u origin gh-pages  
+  	git remote add origin git@github.com:bioboot/web-2017.git  
+  	git push -u origin gh-pages  
 
 Then preview your new site online: https://bioboot.github.io/web-2017/ and visit the repo itself to see if everything is ship-shape: https://github.com/bioboot/web-2017  
 
