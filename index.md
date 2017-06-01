@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Introduction to Biocomputing 2016 (BIOS/BIOI/HG 606) 
+# Introduction to Biocomputing 2017 (BIOS/BIOI/HG 606) 
 
 **Overview:** This hands-on boot camp introduces new graduate students to computational tools, techniques and best practices that foster reproducible research in bioinformatics, genome informatics and biostatistics.
 
@@ -12,7 +12,7 @@ layout: page
 
 **Requirements:** Participants must bring a laptop with specific [software installed]({{ site.baseurl }}/setup/).
 
-**When:** August 22-26 (2016), 9:00 AM - 4:00 PM 
+**When:** August 21-25 (2017), 9:00 AM - 4:00 PM 
 
 **Where:** 3755 SPH1 (School of Public Health building 1) [Map](https://goo.gl/maps/kzaA1T9mPK22)
 

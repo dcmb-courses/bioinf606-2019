@@ -6,8 +6,8 @@ description: > # this means to ignore newlines until "baseurl:"
    computational tools, techniques and best practices that foster 
    reproducible research in bioinformatics, genome informatics 
    and biostatistics.
-baseurl: "/web-2016" # the subpath of your site, e.g. /blog/
-url: "http://bioboot.github.io/web-2016" 
+baseurl: "/web-2017" # the subpath of your site, e.g. /blog/
+url: "http://bioboot.github.io/web-2017" 
 twitter_username: bioboot
 github_username:  bioboot
 
