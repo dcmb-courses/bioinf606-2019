@@ -1,17 +1,17 @@
 # web-2017
-Biocomputing bootcamp website for 2017, see: http://bioboot.github.io/web-2017/
+## Biocomputing bootcamp website for 2017
 
-This is a simple [jekell based static site](http://jekyllrb.com/docs/home/). 
+See: http://bioboot.github.io/web-2017/
 
-To view locally on your own machine (i.e. before pushing or submitting a pull 
+**Overview:** This is a simple [jekell based static site](http://jekyllrb.com/docs/home/). To view locally on your own machine (i.e. before pushing or submitting a pull 
 request to this [bioboot GitHub](https://github.com/bioboot/web-2017) repo) 
 you will need to have the **jekyll** and **github-pages** gem setup (see further 
 below for full instructions)
 
 
-## To roll forward
+### Roll forward instructions...
 
-Follow the steps below (assuming you already have **jekyll** and **github-pages** 
+To roll forward for a new years class follow the steps below (assuming you already have **jekyll** and **github-pages** 
 setup on your local machine):
 
 Git clone old site to a new dir
@@ -22,10 +22,10 @@ Git clone old site to a new dir
   git clone git@github.com:bioboot/web-2016.git web-2017
   cd web-2017/
   
-Update `_config.yml`, `index.md`, and the dates of the modules pages. Go through the regular `git add`, `git commit -m` cycle. But don’t yet push to GitHub (as we will want a new repo for this years class).
+Update `_config.yml` and `index.md`. IN particular, rembember to change the dates and the pre-course questionnaire and post-course evaluation forms. Go through the regular `git add`, `git commit -m` cycle. But don’t yet push to GitHub (as we will want a new repo for this years class).
   
 
-On GitHub make a new repo (Use the “+” sign and name it `web-2017` to match your local directory name (purely for convenience).
+On GitHub make a new repo (Use the “+” sign and name it `web-2017` to match your local directory name. This name matching is purely for convenience).
 
 Then on the local machine change your remotes to point to this new repo.
 
@@ -40,13 +40,14 @@ Now add our new repo and push changes:
 Then preview your new site online: https://bioboot.github.io/web-2017/ and visit the repo itself to see if everything is ship-shape: https://github.com/bioboot/web-2017  
 
 
-## Biocomputing bootcamp website for 2016, see: http://bioboot.github.io/web-2016/
-See 2015 site below
+### Biocomputing bootcamp website for 2016 
 
-Biocomputing bootcamp website for 2015, see: http://bioboot.github.io/web-2015/
+See: http://bioboot.github.io/web-2016/  asnd 2015 site setup details below.
 
 
-This is a simple [jekell based static site](http://jekyllrb.com/docs/home/). 
+### Biocomputing bootcamp website for 2015, 
+
+See: http://bioboot.github.io/web-2015/ This is a simple [jekell based static site](http://jekyllrb.com/docs/home/). 
 
 To view locally on your own machine (i.e. before pushing or submitting a pull 
 request to this [bioboot GitHub](https://github.com/bioboot/web-2015) repo) 
