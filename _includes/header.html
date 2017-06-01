@@ -14,13 +14,12 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% unless page.exclude %}
-            {% if page.title %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            {% endif %}
-          {% endunless %}  
-        {% endfor %}
+        <a class="page-link" href="{{ site.baseurl }}/day1/">Day 1</a>
+        <a class="page-link" href="{{ site.baseurl }}/day2/">Day 2</a>
+        <a class="page-link" href="{{ site.baseurl }}/day3/">Day 3</a>
+        <a class="page-link" href="{{ site.baseurl }}/day4/">Day 4</a>
+        <a class="page-link" href="{{ site.baseurl }}/day5/">Day 5</a>
+        <a class="page-link" href="{{ site.baseurl }}/setup/">Setup</a>
       </div>
     </nav>
 
