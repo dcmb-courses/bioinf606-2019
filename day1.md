@@ -29,14 +29,14 @@ The real strength of learning Unix is that most of these commands can be combine
 <br>
 
 ### Instructors:
-Barry Grant (BG)  
+Ryan Mills (RM)  
 Hui Jiang (HJ)
 
 <br>
 
 ### Topics:
 
-#### I)   Setup and Motivation [1:15 hr]  HJ & BG ([Slides](../class-material/slides_day1-1_unix-motivation.pdf))  ([Example data](../class-material/bootcamp_01_unix.tar.gz))  
+#### I)   Setup and Motivation [1:15 hr]  HJ & RM ([Slides](../class-material/slides_day1-1_unix-motivation.pdf))  ([Example data](../class-material/bootcamp_01_unix.tar.gz))  
 - Setup
 - Motivation (Why do we use Unix?)
 	- Modularity, workflows, programmability, existing tools, and the Unix philosophy
@@ -56,7 +56,7 @@ Hui Jiang (HJ)
 
 —- Lunch Break [1 hr] —  
 
-#### III)   Working with Unix [1.15 hr] BG ([Slides](../class-material/slides_day1-3_unix-work.pdf))
+#### III)   Working with Unix [1.15 hr] RM ([Slides](../class-material/slides_day1-3_unix-work.pdf))
 - File editing
 - Redirecting
 - Streams & Pipes 
@@ -65,7 +65,7 @@ Hui Jiang (HJ)
 
 —- Coffee Break [15 mins] —  
 
-#### IV)   How to Get Working [1.30 hr] BG & HJ
+#### IV)   How to Get Working [1.30 hr] RM & HJ
 - Project organization   
 - Compiling software
 
