@@ -29,7 +29,7 @@ Before getting our hands dirty working with real data in R, we need to learn the
 <br>
 
 ### Instructors:
-Barry Grant (BJG)  
+Armand Bankhead (AB)
 Jacob Kitzman (JOK)
 Ryan Mills (RM)  
 
@@ -37,7 +37,7 @@ Ryan Mills (RM)
 
 ### Topics (Tentative):
 
-#### I)   R Language Basics and the RStudio IDE [1:15 hr] ([Slides](../class-material/slides_day3-1_R.pdf)) ([Exercise-1](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md)) BG 
+#### I)   R Language Basics and the RStudio IDE [1:15 hr] ([Slides](../class-material/slides_day3-1_R.pdf)) ([Exercise-1](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md)) AB 
 - What is R?
 - Motivation: Why use R?  
 - Getting started with R and the RStudio IDE (integrated development environment).
@@ -69,7 +69,7 @@ Ryan Mills (RM)
 
 —- Coffee Break [15 mins] —
 
-#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] ([Slides](../class-material/slides_day3-4_R.pdf)) BG
+#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] ([Slides](../class-material/slides_day3-4_R.pdf)) JOK 
 - CRAN - the Comprehensive R Archive Network.
 - Bioconductor bioinformatics package system.
 

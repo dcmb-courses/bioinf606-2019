@@ -27,8 +27,7 @@ Typically, such research projects can take a very long time to generate the data
 
 ### Instructors:
 Ryan Mills (RM)   
-Jacob Kitzman (JK)  
-Barry Grant (BG)  
+Alan Boyle (APB)
 Hui Jiang (HJ)  
 <br>
 
