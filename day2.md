@@ -60,9 +60,10 @@ Jacob Kitzman (JK)
 —- Coffee Break [15 mins] —  
 
 #### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] JK 
-- Calling external programs ([iPython notebook](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/day2_system_calls_in_ipython.ipynb))
-- Tabular data analysis with pandas ([Handout 1](../class-material/day2-python-pandas.pdf) and [iPython notebook](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/day2_pandas_demo.ipynb))
-- Plotting using matplotlib and other utilities ([Handout 2](../class-material/day2-visualization.pdf), [iPython notebook #1](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/day2_matplotlib_demo.ipynb), [iPython notebook #2](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/day2_visualization_with_seaborn.ipynb))
+- Calling external programs (ipython notebook - [filled in](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_system_calls_in_ipython.ipynb), [blank version](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_system_calls_in_ipython_blank.ipynb) )
+- Tabular data analysis with pandas ([Slides 1](../class-material/day2-python-pandas.pdf) and iPython notebook - [filled in](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_pandas_demo.ipynb), [blank version](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_pandas_demo_blank.ipynb))
+- Plotting using matplotlib ([Slides 2](../class-material/day2-visualization.pdf), iPython notebook - [filled in](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_matplotlib_demo.ipynb), [blank](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_matplotlib_demo_blank.ipynb)
+- Plotting gene expression data using seaborn  (ipython notebook - [filled in](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_visualization_with_seaborn.ipynb), [blank](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_visualization_with_seaborn_blank.ipynb))
 
 —- End/Wrap-Up —
 
