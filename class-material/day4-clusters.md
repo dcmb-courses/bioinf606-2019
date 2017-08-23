@@ -19,11 +19,11 @@ layout: page
   cd day4
   </pre>
 
-- download and extract the [data](https://github.com/bioboot/web-2016/raw/gh-pages/class-material/read_counts_by_region.tar.gz) for today to FLUX
-  - Note that you can view a render of this [notebook](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/read_counts_by_region.ipynb) directly on GitHub as well!
+- download and extract the [data](https://github.com/bioboot/web-2017/raw/gh-pages/class-material/read_counts_by_region.tar.gz) for today to FLUX
+  - Note that you can view a render of this [notebook](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/read_counts_by_region.ipynb) directly on GitHub as well!
 
   <pre>
-  wget https://github.com/bioboot/web-2016/raw/gh-pages/class-material/read_counts_by_region.tar.gz
+  wget https://github.com/bioboot/web-2017/raw/gh-pages/class-material/read_counts_by_region.tar.gz
   tar zxvf read_counts_by_region.tar.gz
   cd read_counts_by_region
   </pre>
