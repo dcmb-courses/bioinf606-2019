@@ -37,23 +37,29 @@ Ryan Mills (RM)
 
 ### Topics (Tentative):
 
-#### I)   R Language Basics and the RStudio IDE [1:15 hr] ([Slides](../class-material/slides_day3-1_R_Bankhead.pdf)) ([Exercise-1](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md)) AB 
-- What is R?
-- Motivation: Why use R?  
-- Getting started with R and the RStudio IDE (integrated development environment).
-- Using R.
-  - Getting help.
-  - Major data structures (vectors, matrices and data.frames).
-  - Using functions (arguments, vectorizion and re-cycling).
-  - R scripts and reproducibility.
-  - Optional extra: [working with strings](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/useful_functions.md).
+#### I)   Introduction to R [1:15 hr] ([Slides](../class-material/slides_day3-1_R_Bankhead.pdf)) AB 
+- Why R?
+- Ways to Use R
+- R as a Statistical Programming Language
+- Writing and Runnnig R Scripts
+- Data Types
+- Data Structures
+- Vector and Matrix Operations
+- Optional Extra #1: [R basics](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md)
+- Optional Extra #2: [working with strings](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/useful_functions.md).
+
 
 —- Coffee Break [15 mins] —
 
 #### II)   R Data Structures and Functions [1:30 hr] ([Slides](../class-material/slides_day3-2_R_Bankhead.pdf))  
-- Major data structures (vectors, matrices, lists and data.frames).
-  - Indexing and vectorizion.
-- Using and writing functions (arguments, more on vectorizion and re-cycling).
+- Working Directory 
+- Reading and Writing Data in R
+- Factors
+- Using Indexes
+- Merging Data Frames
+- Functions
+- Program Control Structures
+
 
 —- Lunch Break [1 hr] —
 
