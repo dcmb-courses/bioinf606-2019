@@ -37,7 +37,7 @@ Ryan Mills (RM)
 
 ### Topics (Tentative):
 
-#### I)   R Language Basics and the RStudio IDE [1:15 hr] ([Slides](../class-material/slides_day3-1_R.pdf)) ([Exercise-1](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md)) AB 
+#### I)   R Language Basics and the RStudio IDE [1:15 hr] ([Slides](../class-material/slides_day3-1_R_Bankhead.pdf)) ([Exercise-1](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md)) AB 
 - What is R?
 - Motivation: Why use R?  
 - Getting started with R and the RStudio IDE (integrated development environment).
@@ -50,7 +50,7 @@ Ryan Mills (RM)
 
 —- Coffee Break [15 mins] —
 
-#### II)   R Data Structures and Functions [1:30 hr] ([Slides](../class-material/slides_day3-2_R.pdf))  
+#### II)   R Data Structures and Functions [1:30 hr] ([Slides](../class-material/slides_day3-2_R_Bankhead.pdf))  
 - Major data structures (vectors, matrices, lists and data.frames).
   - Indexing and vectorizion.
 - Using and writing functions (arguments, more on vectorizion and re-cycling).
