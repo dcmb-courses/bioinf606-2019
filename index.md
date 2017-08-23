@@ -52,9 +52,9 @@ layout: page
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **R Language Basics and the RStudio IDE** | 
+| I       | 9:00-10:15 AM  | **Introduction to R** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-12:00 AM | **R Data Structures and Functions** | 
+| II      | 10:30-12:00 AM | **R Control Structures and Functions** | 
 |         | 12:00-1:00PM   | Lunch                    | 
 | III     | 1:00-2:15 PM   | **Data Exploration and Visualization in R** | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
