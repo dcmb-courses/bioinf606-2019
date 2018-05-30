@@ -1,15 +1,15 @@
 # Site settings
 title: Biocomputing Bootcamp
-email: bjgrant@umich.edu
+email: remills@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
    A short course at the University of Michigan introducing  
    computational tools, techniques and best practices that foster 
    reproducible research in bioinformatics, genome informatics 
    and biostatistics.
-baseurl: "/web-2017" # the subpath of your site, e.g. /blog/
-url: "http://bioboot.github.io/web-2017" 
-twitter_username: bioboot
-github_username:  bioboot
+baseurl: "/bioinf606-2018" # the subpath of your site, e.g. /blog/
+url: "http://dcmb-courses.github.io/bioinf606-2018" 
+twitter_username: 
+github_username:  remills 
 
 # Build settings
 markdown: kramdown
