@@ -1,7 +1,7 @@
-# web-2017
-## Biocomputing bootcamp website for 2017
+# bioinf606-2018
+## Biocomputing bootcamp website for 2018
 
-See: http://bioboot.github.io/web-2017/
+See: http://dcmb-courses.github.io/bioinf606-2018/
 
 **Overview:** This is a simple [jekell based static site](http://jekyllrb.com/docs/home/). To view locally on your own machine (i.e. before pushing or submitting a pull 
 request to this [bioboot GitHub](https://github.com/bioboot/web-2017) repo) 
@@ -116,3 +116,4 @@ Create a simple index.md file and have a quick look with 'jekyll serve'
 After some more content addition I then followed the [instructions for adding 
 to GitHub pages](http://jekyllrb.com/docs/github-pages/).
 
+## Cloned from Barry Grant (http://thegrantlab.org/) repository at https://github.com/bioboot/web-2017
