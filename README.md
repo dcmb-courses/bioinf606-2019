@@ -116,4 +116,4 @@ Create a simple index.md file and have a quick look with 'jekyll serve'
 After some more content addition I then followed the [instructions for adding 
 to GitHub pages](http://jekyllrb.com/docs/github-pages/).
 
-## Cloned from Barry Grant (http://thegrantlab.org/) repository at https://github.com/bioboot/web-2017
+# Cloned from Barry Grant (http://thegrantlab.org/) repository at https://github.com/bioboot/web-2017
