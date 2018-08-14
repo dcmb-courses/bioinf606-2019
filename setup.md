@@ -71,15 +71,15 @@ After installing R itself we recommend installing the *preview* version of [RStu
 ### Python
 Python is a popular language for scientific computing. Installing all of its scientific packages individually can be a bit difficult, so we recommend an all-in-one installer.
 
-Regardless of how you choose to install it, please make sure you install Python version 2.x and not version 3.x (e.g., 2.7 is fine but not 3.4). Python 3 introduced changes that will break some of the code we teach during the workshop.
+Regardless of how you choose to install it, please make sure you install Python version 3.6.
 
-We will teach Python using the IPython notebook, a programming environment that runs in a web browser. For this to work you will need a reasonably up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are all supported (some older browsers, including Internet Explorer version 9 and below, are not).
+We will teach Python using the Jupyter notebook, a programming environment that runs in a web browser. For this to work you will need a reasonably up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are all supported (some older browsers, including Internet Explorer version 9 and below, are not).
 
 **Windows:** Download and install [Anaconda](http://continuum.io/downloads.html).
-Download the default *Python 2 graphical installer* installer (do not follow the link to version 3). Use all of the defaults for installation except make sure to check _Make Anaconda the default Python_.
+Download the default *Python 3 graphical installer* installer. Use all of the defaults for installation except make sure to check _Make Anaconda the default Python_.
 
 **Mac OS X:** Download and install [Anaconda](http://continuum.io/downloads.html).
-Download the default "Mac OS X **Python 2.7** Graphical Installer" (do not follow the link to version 3). Use all of the defaults for installation.
+Download the default "Mac OS X **Python 3.6** Graphical Installer". Use all of the defaults for installation.
 
 **Linux:** As above, we recommend the all-in-one scientific Python installer for linux [Anaconda](http://continuum.io/downloads.html).
 
