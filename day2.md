@@ -11,6 +11,7 @@ permalink: /day2/
 
 # Day 2. Introduction to Programming
 Instructor: Marcus D. Sherman
+
 Much of bioinformatics requires manipulation of data data sets, execution of multiple external programs, and summary and analysis of results.  Many programming langagues, such as Perl and Python excel at these tasks.  Here, we will provide an overview of the Python language, demonstrate basic concepts in programming, and show how to create figures and utilize iPython notebooks.  Python is a powerfull language with many external packages that permit sophisticated analysis workflows.
 
 ---
