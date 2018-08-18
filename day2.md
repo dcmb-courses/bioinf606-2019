@@ -62,6 +62,7 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 ### Wrap-up
 - Summary
 - Questions
+
 ---
 
 ## Resources
