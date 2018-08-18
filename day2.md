@@ -70,14 +70,14 @@ Marcus D Sherman - Graduate Student
 
 
 ### Reference material
-[Cheat Sheet](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf): Basic Python beginner's cheat sheet
-[CodeAcademy](https://www.codecademy.com/learn/python): An interactive online python tutorial for beginners
-[Hitchhiker's Guide to Python](https://docs.python-guide.org/): Guide for both novice and expert Python developers to installation, configuration, and usage best practices.
-[Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md): Python is the main dynamic language used at Google. This style guide is a list of dos and don'ts for Python programs.
-[Matplotlib Gallery](http://matplotlib.org/gallery.html): Some examples of the power of `matplotlib`
-[Plotly](https://plot.ly/python/): Some examples of the interactive plotting library `plotly`
-[Jupyter Project](http://jupyter.org/)
-[Binder Project](https://mybinder.org/#): How the material for this day's sessions are being served
+[Cheat Sheet](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf): Basic Python beginner's cheat sheet<br/>
+[CodeAcademy](https://www.codecademy.com/learn/python): An interactive online python tutorial for beginners<br/>
+[Hitchhiker's Guide to Python](https://docs.python-guide.org/): Guide for both novice and expert Python developers to installation, configuration, and usage best practices.<br/>
+[Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md): Python is the main dynamic language used at Google. This style guide is a list of dos and don'ts for Python programs.<br/>
+[Matplotlib Gallery](http://matplotlib.org/gallery.html): Some examples of the power of `matplotlib`<br/>
+[Plotly](https://plot.ly/python/): Some examples of the interactive plotting library `plotly`<br/>
+[Jupyter Project](http://jupyter.org/)<br/>
+[Binder Project](https://mybinder.org/#): How the material for this day's sessions are being served<br/>
 [NumFOCUS](https://numfocus.org/)
 
 
