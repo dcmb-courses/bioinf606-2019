@@ -71,15 +71,15 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 [Gene expression table](../class-material/GTEx_Analysis_v6p_RNA-seq_RNA-SeQCv1.1.8_gene_median_rpkm.gct.gz)<br/>
 
 ## Resources
-| Link | Description           |
+| <p align="left"> Link | <p align="left">Description           |
 | :-----: |:--------------:|
-|[Cheat Sheet](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf)| Basic Python beginner's cheat sheet|
-|[CodeAcademy](https://www.codecademy.com/learn/python)| An interactive online python tutorial for beginners<br/>
-|[Hitchhiker's Guide to Python](https://docs.python-guide.org/)| Guide for both novice and expert Python developers to installation, configuration, and usage best practices.|
-|[Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)| Python is the main dynamic language used at Google. This style guide is a list of dos and don'ts for Python programs.|
-|[Matplotlib Gallery](http://matplotlib.org/gallery.html)| Some examples of the power of `matplotlib`|
-|[Jupyter Project](http://jupyter.org/)| Project Jupyter is a non-profit, open-source project, born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages.|
-|[Binder Project](https://mybinder.org/#)| How the material for this day's sessions are being served
-|[NumFOCUS](https://numfocus.org/)| NumFOCUS offers many programs in support of our mission to promote sustainable high-level programming languages, open code development, and reproducible scientific research.|
+|<p align="left">[Cheat Sheet](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf)| <p align="left">Basic Python beginner's cheat sheet|
+|<p align="left">[CodeAcademy](https://www.codecademy.com/learn/python)| <p align="left">An interactive online python tutorial for beginners<br/>
+|<p align="left">[Hitchhiker's Guide to Python](https://docs.python-guide.org/)| <p align="left">Guide for both novice and expert Python developers to installation, configuration, and usage best practices.|
+|<p align="left">[Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)| <p align="left">Python is the main dynamic language used at Google. This style guide is a list of dos and don'ts for Python programs.|
+|<p align="left">[Matplotlib Gallery](http://matplotlib.org/gallery.html)| <p align="left">Some examples of the power of `matplotlib`|
+|<p align="left">[Jupyter Project](http://jupyter.org/)| <p align="left">Project Jupyter is a non-profit, open-source project, born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages.|
+|<p align="left">[Binder Project](https://mybinder.org/#)| <p align="left">How the material for this day's sessions are being served
+|<p align="left">[NumFOCUS](https://numfocus.org/)| <p align="left">NumFOCUS offers many programs in support of our mission to promote sustainable high-level programming languages, open code development, and reproducible scientific research.|
 
 
