@@ -78,8 +78,8 @@ Marcus D Sherman - Graduate Student
 |[Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)| Python is the main dynamic language used at Google. This style guide is a list of dos and don'ts for Python programs.|
 |[Matplotlib Gallery](http://matplotlib.org/gallery.html)| Some examples of the power of `matplotlib`|
 |[Plotly](https://plot.ly/python/)| Some examples of the interactive plotting library `plotly`|
-|[Jupyter Project](http://jupyter.org/)| Some Description|
+|[Jupyter Project](http://jupyter.org/)| Project Jupyter is a non-profit, open-source project, born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages.|
 |[Binder Project](https://mybinder.org/#)| How the material for this day's sessions are being served
-|[NumFOCUS](https://numfocus.org/)| Some Description|
+|[NumFOCUS](https://numfocus.org/)| NumFOCUS offers many programs in support of our mission to promote sustainable high-level programming languages, open code development, and reproducible scientific research.|
 
 
