@@ -4,6 +4,11 @@ title: Day 2
 permalink: /day2/
 ---
 
+|[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/betteridiot/biocomp_bootcamp/blob/master/CODE_OF_CONDUCT.md)| Class and project Code of Conduct|
+|-|-|
+|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betteridiot/biocomp_bootcamp/master?urlpath=lab&filepath=index.ipynb)| **Interactive Jupyter Notebooks for today's sessions**|
+
+
 
 # Day 2. Introduction to Programming
 
