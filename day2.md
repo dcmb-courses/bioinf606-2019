@@ -3,11 +3,11 @@ layout: page
 title: Day 2
 permalink: /day2/
 ---
-<!--
+
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betteridiot/biocomp_bootcamp/master?urlpath=lab&filepath=index.ipynb)
 [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/betteridiot/biocomp_bootcamp/blob/master/CODE_OF_CONDUCT.md)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-green.svg)](https://github.com/betteridiot/biocomp_bootcamp/blob/master/LICENSE)
--->
+
 
 # Day 2. Introduction to Programming
 
