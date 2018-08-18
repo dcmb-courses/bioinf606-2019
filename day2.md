@@ -21,11 +21,11 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 | :-----: |:--------------:| :----------------------- |
 | I       | 9:00-10:15 AM  | **Intro to Python and Programming Concepts** |
 |         | 10:15-10:30AM  | Coffee Break &#9749;             |
-| II      | 10:30-12:00 AM | **Programming Concepts, Variables, and Data Structures**       |
+| II      | 10:30-12:00 AM | **Variables and Data Structures**       |
 |         | 12:00-1:00PM   | Lunch &#127869;                   |
 | III     | 1:00-2:15 PM   | **Control Structures and Functions**    |
 |         | 2:15-2:30 PM   | Coffee Break  &#9749;            |
-| IV      | 2:30-4:00 PM   | **System Calls, Plotting, and iPython Notebooks**   |
+| IV      | 2:30-4:00 PM   | **System Calls and Plotting**   |
 
 ---
 
@@ -33,23 +33,26 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 ### Session I: Intro to Python and Programming Concepts [1:15 hr]
 - What is Python?  What is programming?
 - Setup and execution of simple scripts
-- Data input and output
 
 ##### &#8212; &#9749; Coffee Break [15 mins]
 
-### Session II: Programming Concepts, Variables, and Data Structures [1:30 hr] ([Handout](../class-material/handout_day2-2_python.pdf))
-- Concepts in the Python language
-- Variables and data structures
+### Session II: Variables and Data Structures [1:30 hr] 
+- What is a variable?
+- Data Structures:
+  - Mutable vs Immutable
+  - Lists vs Tuples
+  - Dictonaries and Sets
 
 ### &#8212; &#127869; Lunch Break [1 hr]
 
-### Session III: Control Structures and Functions [1.15 hr] ([iPython Notebook](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/bioinf606.ipynb))
+### Session III: I/O, Control Structures, and Functions [1.15 hr]
+- Data input and output
 - Control structures and loops
 - Functions
 
 ##### &#8212; &#9749; Coffee Break [15 mins]
 
-### Session IV: System Calls, Plotting, and Jupyter Notebooks [1.30 hr]
+### Session IV: System Calls and Plotting [1.30 hr]
 - Calling external programs
 - Tabular data analysis with `pandas`
 - Plotting using `matplotlib`
@@ -63,12 +66,6 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 |Instructor|
 |-|
 |Marcus D Sherman |
-
-## Datasets
-
-[Cereal comma-delimited table](../class-material/cereals.csv)<br/>
-[Cereal tab-delimited table](../class-material/cereals.tsv)<br/>
-[Gene expression table](../class-material/GTEx_Analysis_v6p_RNA-seq_RNA-SeQCv1.1.8_gene_median_rpkm.gct.gz)<br/>
 
 ## Resources
 | <p align="left"> Link | <p align="left">Description           |
