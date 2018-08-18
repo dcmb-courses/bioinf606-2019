@@ -18,15 +18,15 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 
 ## Schedule:
 
-| Session | Time           | Topics                   |
-| :-----: |:--------------:| :----------------------- |
-| I       | 9:00-10:15 AM  | **Intro to Python and Programming Concepts** |
-|         | 10:15-10:30AM  | Coffee Break &#9749;             |
-| II      | 10:30-12:00 AM | **Variables and Data Structures**       |
-|         | 12:00-1:00PM   | Lunch &#127869;                   |
-| III     | 1:00-2:15 PM   | **Control Structures and Functions**    |
-|         | 2:15-2:30 PM   | Coffee Break  &#9749;            |
-| IV      | 2:30-4:00 PM   | **System Calls and Plotting**   |
+| Session   | Time           | Topics                   |
+| :-------: |:--------------:| :----------------------- |
+| I         | 9:00-10:15 AM  | **Intro to Python and Programming Concepts** |
+| &#9749;   | 10:15-10:30AM  | Coffee Break              |
+| II        | 10:30-12:00 AM | **Variables and Data Structures**       |
+| &#127869; | 12:00-1:00PM   | Lunch                   |
+| III       | 1:00-2:15 PM   | **Control Structures and Functions**    |
+| &#9749;   | 2:15-2:30 PM   | Coffee Break  &#9749;            |
+| IV        | 2:30-4:00 PM   | **System Calls and Plotting**   |
 
 ---
 
@@ -66,6 +66,7 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 ---
 
 ## Resources
+
 | Link                                                                                                          | Description |
 | :-----------------------------------------------------------------------------------------------------------: | :---------------- |
 | [Cheat Sheet](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf) | Basic Python beginner's cheat sheet |
@@ -77,4 +78,5 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 | [Binder Project](https://mybinder.org/#)                                                                      | How the material for this day's sessions are being served |
 | [NumFOCUS](https://numfocus.org/)                                                                             | NumFOCUS offers many programs in support of our mission to promote sustainable high-level programming languages, open code development, and reproducible scientific research |
 
+---
 
