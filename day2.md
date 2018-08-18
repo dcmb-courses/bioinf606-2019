@@ -25,7 +25,7 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 | II        | 10:30-12:00 AM | **Variables and Data Structures**       |
 | &#127869; | 12:00-1:00PM   | Lunch                   |
 | III       | 1:00-2:15 PM   | **Control Structures and Functions**    |
-| &#9749;   | 2:15-2:30 PM   | Coffee Break  &#9749;            |
+| &#9749;   | 2:15-2:30 PM   | Coffee Break             |
 | IV        | 2:30-4:00 PM   | **System Calls and Plotting**   |
 
 ---
