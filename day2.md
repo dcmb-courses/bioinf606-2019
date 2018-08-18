@@ -9,9 +9,7 @@ permalink: /day2/
 
 Much of bioinformatics requires manipulation of data data sets, execution of multiple external programs, and summary and analysis of results.  Many programming langagues, such as Perl and Python excel at these tasks.  Here, we will provide an overview of the Python language, demonstrate basic concepts in programming, and show how to create figures and utilize iPython notebooks.  Python is a powerfull language with many external packages that permit sophisticated analysis workflows.
 
-
-
-<br>
+<br/>
 
 ### Schedule:
 
@@ -25,41 +23,34 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 |         | 2:15-2:30 PM   | Coffee Break             | 
 | IV      | 2:30-4:00 PM   | **System Calls, Plotting, and iPython Notebooks**   | 
 
+<br/>
 
-<br>
+### Instructor:
+Marcus D Sherman - Graduate Student
 
+<br/>
 
-
-<br>
-
-### Instructors:
-Jeff de Wet (JdW)  
-Jacob Kitzman (JK)
-
-
-<br>
-
-#### I)   Intro to Python and Programming Concepts [1:15 hr]  JdW
+#### I)   Intro to Python and Programming Concepts [1:15 hr]
 - What is Python?  What is programming?
 - Setup and execution of simple scripts
 - Data input and output
 
 —- Coffee Break [15 mins] —  
 
-#### II)   Programming Concepts, Variables, and Data Structures [1:30 hr]  JdW ([Handout](../class-material/handout_day2-2_python.pdf))
+#### II)   Programming Concepts, Variables, and Data Structures [1:30 hr] ([Handout](../class-material/handout_day2-2_python.pdf))
 - Concepts in the Python language
 - Variables and data structures
 
 —- Lunch Break [1 hr] —  
 
-#### III)   Control Structures and Functions [1.15 hr] JdW ([iPython Notebook](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/bioinf606.ipynb))  
+#### III)   Control Structures and Functions [1.15 hr] ([iPython Notebook](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/bioinf606.ipynb))  
 
 - Control structures and loops
 - Functions
 
 —- Coffee Break [15 mins] —  
 
-#### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] JK 
+#### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] 
 - Calling external programs (ipython notebook - [filled in](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_system_calls_in_ipython.ipynb), [blank version](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_system_calls_in_ipython_blank.ipynb) )
 - Tabular data analysis with pandas ([Slides 1](../class-material/day2-python-pandas.pdf) and iPython notebook - [filled in](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_pandas_demo.ipynb), [blank version](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_pandas_demo_blank.ipynb))
 - Plotting using matplotlib ([Slides 2](../class-material/day2-visualization.pdf), iPython notebook - [filled in](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_matplotlib_demo.ipynb), [blank](https://github.com/bioboot/web-2017/blob/gh-pages/class-material/day2_matplotlib_demo_blank.ipynb)
@@ -79,16 +70,14 @@ Jacob Kitzman (JK)
 
 
 ### Reference material
-[Class Handout](../class-material/handout_day2-2_python.pdf)
-  
-[CodeAcademy](https://www.codecademy.com/learn/python) An interactive online python tutorial for beginners - thanks Adam for sharing this.  
+[Cheat Sheet](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf): Basic Python beginner's cheat sheet
+[CodeAcademy](https://www.codecademy.com/learn/python): An interactive online python tutorial for beginners
+[Hitchhiker's Guide to Python](https://docs.python-guide.org/): Guide for both novice and expert Python developers to installation, configuration, and usage best practices.
+[Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md): Python is the main dynamic language used at Google. This style guide is a list of dos and don'ts for Python programs.
+[Matplotlib Gallery](http://matplotlib.org/gallery.html): Some examples of the power of `matplotlib`
+[Plotly](https://plot.ly/python/): Some examples of the interactive plotting library `plotly`
+[Jupyter Project](http://jupyter.org/)
+[Binder Project](https://mybinder.org/#): How the material for this day's sessions are being served
+[NumFOCUS](https://numfocus.org/)
 
-[Python Quick Referene](http://rgruet.free.fr/)  
-[Matplotlib Gallery](http://matplotlib.org/gallery.html)  
-[iPython Notebooks](http://ipython.org/notebook.html)
-
-<!--- files dont exist yet...
-[Slides-2.1]()
-[Slides-2.2]()
--->
 
