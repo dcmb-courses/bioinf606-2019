@@ -65,15 +65,15 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 ---
 
 ## Resources
-| <p align="left"> Link | <p align="left">Description           |
+| <p align="left"> Link </p>| <p align="left">Description   </p>        |
 | :-----: |:--------------:|
-|<p align="left">[Cheat Sheet](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf)| <p align="left">Basic Python beginner's cheat sheet|
-|<p align="left">[CodeAcademy](https://www.codecademy.com/learn/python)| <p align="left">An interactive online python tutorial for beginners<br/>
-|<p align="left">[Hitchhiker's Guide to Python](https://docs.python-guide.org/)| <p align="left">Guide for both novice and expert Python developers to installation, configuration, and usage best practices.|
-|<p align="left">[Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)| <p align="left">Python is the main dynamic language used at Google. This style guide is a list of dos and don'ts for Python programs.|
-|<p align="left">[Matplotlib Gallery](http://matplotlib.org/gallery.html)| <p align="left">Some examples of the power of `matplotlib`|
-|<p align="left">[Jupyter Project](http://jupyter.org/)| <p align="left">Project Jupyter is a non-profit, open-source project, born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages.|
-|<p align="left">[Binder Project](https://mybinder.org/#)| <p align="left">How the material for this day's sessions are being served
-|<p align="left">[NumFOCUS](https://numfocus.org/)| <p align="left">NumFOCUS offers many programs in support of our mission to promote sustainable high-level programming languages, open code development, and reproducible scientific research.|
+|<p align="left">[Cheat Sheet](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf)</p>| <p align="left">Basic Python beginner's cheat sheet</p>|
+|<p align="left">[CodeAcademy](https://www.codecademy.com/learn/python)</p>| <p align="left">An interactive online python tutorial for beginners</p>|
+|<p align="left">[Hitchhiker's Guide to Python](https://docs.python-guide.org/)</p>| <p align="left">Guide for both novice and expert Python developers to installation, configuration, and usage best practices.</p>|
+|<p align="left">[Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)</p>| <p align="left">Python is the main dynamic language used at Google. This style guide is a list of dos and don'ts for Python programs.</p>|
+|<p align="left">[Matplotlib Gallery](http://matplotlib.org/gallery.html)</p>| <p align="left">Some examples of the power of `matplotlib`</p>|
+|<p align="left">[Jupyter Project](http://jupyter.org/)</p>| <p align="left">Project Jupyter is a non-profit, open-source project, born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages.</p>|
+|<p align="left">[Binder Project](https://mybinder.org/#)</p>| <p align="left">How the material for this day's sessions are being served</p>|
+|<p align="left">[NumFOCUS](https://numfocus.org/)</p>| <p align="left">NumFOCUS offers many programs in support of our mission to promote sustainable high-level programming languages, open code development, and reproducible scientific research.</p>|
 
 
