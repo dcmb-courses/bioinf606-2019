@@ -114,7 +114,7 @@ layout: page
 <http://cscar.research.umich.edu/events/category/workshops/> 
 
 **Software Carpentry**: Occasional Workshops  
-(Non planned for this year at UM unfortunately) 
+(None planned for this year at UM unfortunately) 
 <http://software-carpentry.org>  
 
 <!--- Uncomment at end of course...
