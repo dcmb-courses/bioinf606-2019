@@ -16,7 +16,7 @@ layout: page
 
 **Where:** 3755 SPH1 (School of Public Health building 1) [Map](https://goo.gl/maps/kzaA1T9mPK22)
 
-**N.B.** Please help us improve this course by completing this [pre-course questionnaire](http://tinyurl.com/bioinf606-questions-2018). Upon completion please complete our [**post-course evaluation**](http://tinyurl.com/bioinf606-2018).
+**N.B.** Please help us improve this course by completing this [pre-course questionnaire](http://bit.ly/2vWofWv). Upon completion please complete our [**post-course evaluation**](http://bit.ly/2Plg9Pv).
 
 <br>
 
@@ -36,15 +36,16 @@ layout: page
 
 #### [Day 2. Introduction to Programming with Python]({{ site.baseurl }}/day2/)
 
-| Session | Time           | Topics                   | 
-| :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Intro to Python and Programming Concepts** | 
-|         | 10:15-10:30 AM | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Variables, and Data Structures**       | 
-|         | 12:00-1:00 PM  | Lunch                    | 
-| III     | 1:00-2:15 PM   | **Control Structures and Functions**    | 
-|         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **System Calls, Plotting, and iPython Notebooks**   | 
+| Session   | Time           | Topics                   |
+| :-------: |:--------------:| :----------------------- |
+| I         | 9:00-10:15 AM  | **Intro to Python and Programming Concepts** |
+| &#9749;   | 10:15-10:30AM  | Coffee Break              |
+| II        | 10:30-12:00 AM | **Variables and Data Structures**       |
+| &#127869; | 12:00-1:00PM   | Lunch                   |
+| III       | 1:00-2:15 PM   | **Control Structures and Functions**    |
+| &#9749;   | 2:15-2:30 PM   | Coffee Break             |
+| IV        | 2:30-4:00 PM   | **System Calls and Plotting**   |
+
 
 <br>
 
@@ -113,7 +114,7 @@ layout: page
 <http://cscar.research.umich.edu/events/category/workshops/> 
 
 **Software Carpentry**: Occasional Workshops  
-(Non planned for this year at UM unfortunately) 
+(None planned for this year at UM unfortunately) 
 <http://software-carpentry.org>  
 
 <!--- Uncomment at end of course...
