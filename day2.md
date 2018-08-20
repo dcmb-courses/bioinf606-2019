@@ -18,11 +18,12 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 
 ## Schedule:
 
+
 | Session   | Time           | Topics                   |
 | :-------: |:--------------:| :----------------------- |
 | I         | 9:00-10:15 AM  | **Intro to Python and Programming Concepts** |
 | &#9749;   | 10:15-10:30AM  | Coffee Break              |
-| II        | 10:30-12:00 AM | **Variables and Data Structures**       |
+| II        | 10:30-12:00 AM | **Variables, Data Structures, and I/O**       |
 | &#127869; | 12:00-1:00PM   | Lunch                   |
 | III       | 1:00-2:15 PM   | **Control Structures and Functions**    |
 | &#9749;   | 2:15-2:30 PM   | Coffee Break             |
@@ -37,17 +38,17 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 
 ##### &#8212; &#9749; Coffee Break [15 mins]
 
-### Session II: Variables and Data Structures [1:30 hr] 
+### Session II: Variables, Data Structures, and I/O [1:30 hr] 
 - What is a variable?
 - Data Structures:
   - Mutable vs Immutable
   - Lists vs Tuples
   - Dictonaries and Sets
+- Input/Output and File Handling
 
 ### &#8212; &#127869; Lunch Break [1 hr]
 
-### Session III: I/O, Control Structures, and Functions [1.15 hr]
-- Data input and output
+### Session III: Control Structures and Functions [1.15 hr]
 - Control structures and loops
 - Functions
 
