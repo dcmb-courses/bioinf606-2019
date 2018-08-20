@@ -36,11 +36,12 @@ layout: page
 
 #### [Day 2. Introduction to Programming with Python]({{ site.baseurl }}/day2/)
 
+
 | Session   | Time           | Topics                   |
 | :-------: |:--------------:| :----------------------- |
 | I         | 9:00-10:15 AM  | **Intro to Python and Programming Concepts** |
 | &#9749;   | 10:15-10:30AM  | Coffee Break              |
-| II        | 10:30-12:00 AM | **Variables and Data Structures**       |
+| II        | 10:30-12:00 AM | **Variables, Data Structures, and I/O**       |
 | &#127869; | 12:00-1:00PM   | Lunch                   |
 | III       | 1:00-2:15 PM   | **Control Structures and Functions**    |
 | &#9749;   | 2:15-2:30 PM   | Coffee Break             |
