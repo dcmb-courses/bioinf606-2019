@@ -80,11 +80,12 @@ Armand Bankhead (AB)
 Pedersen Log2RPKM Gene Expression Data: [file1](../class-material/pedersenLog2RPKM20180817.txt) [file2](../class-material/pedersenLog2RPKM_matrix20180817.txt)
 
 ### Reference material
-[RStudio cheatsheet](http://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf):  A well designed reference card for RStudio features.  
+[RStudio cheatsheet](http://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf):  A well designed reference card for RStudio features  
 
-[R for Data Science](http://r4ds.had.co.nz): A brand new O’Reilly book, available free online, that will teach you how to do data science with R.  
+[ggplot2 cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf): A pragmatic reference creating ggplot2 visualizations
 
-Class notes on [R language basics](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md).  
+[R for Data Science](http://r4ds.had.co.nz): A brand new O’Reilly book, available free online, that will teach you how to do data science with R  
 
-Class notes on [useful R functions for working with strings](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/useful_functions.md).  
+Class notes on [R language basics](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md)
 
+Class notes on [useful R functions for working with strings](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/useful_functions.md)
