@@ -34,7 +34,7 @@ Ryan Mills (RM)
 
 ### Topics:
 
-#### I)   Introduction to R [1:15 hr] ([Slides](../class-material/slides_day3-1_R_Bankhead.pdf)) AB 
+#### I)   Introduction to R [1:15 hr] [Slides](bioinf606-2018/class-material/slides_day3-1-R-introduction.pdf)
 - Why R?
 - Ways to Use R
 - R as a Statistical Programming Language
