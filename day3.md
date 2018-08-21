@@ -34,7 +34,7 @@ Ryan Mills (RM)
 
 ### Topics:
 
-#### I)   Introduction to R [1:15 hr] ([Slides](../class-material/slides_day1-1_unix-motivation.pdf))
+#### I)   Introduction to R [1:15 hr] (slides](../class-material/slides_day3-1-R-introduction.pdf)
 - Why R?
 - Ways to Use R
 - R as a Statistical Programming Language
@@ -48,7 +48,7 @@ Ryan Mills (RM)
 
 —- Coffee Break [15 mins] —
 
-#### II)   R Control Structures and Functions [1:30 hr] ([Slides](../class-material/slides_day3-2_R_Bankhead.pdf)) AB
+#### II)   R Control Structures and Functions [1:30 hr] ([slides](../class-material/slides_day3-2_R_control.pdf))
 - Working Directory 
 - Reading and Writing Data in R
 - Factors
@@ -60,7 +60,7 @@ Ryan Mills (RM)
 
 —- Lunch Break [1 hr] —
 
-#### III)   Data Exploration and Visualization in R ([Slides](../class-material/day3-R-import-and-viz.pdf))  AB
+#### III)   Data Exploration and Visualization in R ([slides](../class-material/slides_day3-3_R_visualization.pdf))
 - Getting your data into R.
   - Import data in various formats (both local and from online sources).
 - The exploratory data analysis mindset.
@@ -72,7 +72,7 @@ Ryan Mills (RM)
 
 —- Coffee Break [15 mins] —
 
-#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] ([Slides](../class-material/slides_day3-4_R.pdf)) AB
+#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] [slides](../class-material/slides_day3-4-R_packages.pdf)
 - CRAN - the Comprehensive R Archive Network.
 - Bioconductor bioinformatics package system.
 
