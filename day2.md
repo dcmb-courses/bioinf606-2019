@@ -57,8 +57,7 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 ### Session IV: System Calls and Plotting [1.30 hr]
 - Calling external programs
 - Tabular data analysis with `pandas`
-- Plotting using `matplotlib`
-- Plotting gene expression data using `seaborn`
+- Plotting using `matplotlib` and `seaborn`
 
 ### Wrap-up
 - Summary
