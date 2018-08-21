@@ -28,27 +28,25 @@ Before getting our hands dirty working with real data in R, we need to learn the
 
 ### Instructors:
 Armand Bankhead (AB)
-Ryan Mills (RM)  
 
 <br>
 
 ### Topics:
 
 #### I)   Introduction to R [1:15 hr] [slides](../class-material/slides_day3-1_R-introductionV1.pdf)
-- Why R?
+- What is R and Why Use it?
 - Ways to Use R
 - R as a Statistical Programming Language
-- Writing and Runnnig R Scripts
+- Writing and Running R Scripts
 - Data Types
 - Data Structures
 - Vector and Matrix Operations
 - Optional Extra #1: [R basics](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md)
 - Optional Extra #2: [working with strings](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/useful_functions.md).
 
-
 —- Coffee Break [15 mins] —
 
-#### II)   R Control Structures and Functions [1:30 hr] [slides](../class-material/slides_day3-2_R_control.pdf)
+#### II)   R Control Structures and Functions [1:30 hr] [slides](../class-material/slides_day3-2_R-controlV1.pdf)
 - Working Directory 
 - Reading and Writing Data in R
 - Factors
@@ -60,14 +58,13 @@ Ryan Mills (RM)
 
 —- Lunch Break [1 hr] —
 
-#### III)   Data Exploration and Visualization in R [slides](../class-material/slides_day3-3_R_visualization.pdf)
-- Getting your data into R
+#### III)   Data Exploration and Visualization in R [slides](../class-material/slides_day3-3_visualizationV1.pdf)
 - Summarizing Data in R
 - Creating Plots in R
 
 —- Coffee Break [15 mins] —
 
-#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] [slides](../class-material/slides_day3-4-R_packages.pdf)
+#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] [slides](../class-material/slides_day3-4_R_packagesV1.pdf)
 - CRAN - the Comprehensive R Archive Network
 - Bioconductor bioinformatics package system
 - Package Installation
