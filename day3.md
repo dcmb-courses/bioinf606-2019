@@ -77,7 +77,7 @@ Armand Bankhead (AB)
 <br>
 
 ### Datasets
-[JIF data](../class-material/choosy_moms.tsv)
+Pedersen Log2RPKM Gene Expression Data: [file1](../class-material/pedersenLog2RPKM20180817.txt) [file2](../class-material/pedersenLog2RPKM_matrix20180817.txt)
 
 ### Reference material
 [RStudio cheatsheet](http://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf):  A well designed reference card for RStudio features.  
