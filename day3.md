@@ -46,7 +46,7 @@ Armand Bankhead (AB)
 
 —- Coffee Break [15 mins] —
 
-#### II)   R Control Structures and Functions [1:30 hr] [slides](../class-material/slides_day3-2_R-controlV2.pdf)
+#### II)   R Control Structures and Functions [1:30 hr] [slides](../class-material/slides_day3-2_R-controlV3.pdf)
 - Working Directory 
 - Reading and Writing Data in R
 - Factors
@@ -58,7 +58,7 @@ Armand Bankhead (AB)
 
 —- Lunch Break [1 hr] —
 
-#### III)   Data Exploration and Visualization in R [slides](../class-material/slides_day3-3_visualizationV2.pdf)
+#### III)   Data Exploration and Visualization in R [slides](../class-material/slides_day3-3_visualizationV3.pdf)
 - Summarizing Data in R
 - Creating Plots in R
 
