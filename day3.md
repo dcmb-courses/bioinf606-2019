@@ -4,7 +4,7 @@ title: Day 3
 permalink: /day3/
 ---
 
-# Day 3. Data Analysis and Graphics with R
+# Day 3. Data Analysis and Graphics with R.
 
 R is powerful data programming language and environment for statistical computing, data analysis and graphics. R is typically used to explore and understand data in an open-ended, highly interactive, iterative way. Learning R will give you the freedom to experiment and problem solve during data analysis — exactly what we need as bioinformaticians and data scientists.
 
