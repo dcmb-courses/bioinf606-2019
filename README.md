@@ -1,7 +1,7 @@
-# bioinf606-2018
-## Biocomputing bootcamp website for 2018
+# bioinf606-2019
+## Biocomputing bootcamp website for 2019
 
-See: http://dcmb-courses.github.io/bioinf606-2018/
+See: http://dcmb-courses.github.io/bioinf606-2019/
 
 **Overview:** This is a simple [jekell based static site](http://jekyllrb.com/docs/home/). To view locally on your own machine (i.e. before pushing or submitting a pull 
 request to this [bioboot GitHub](https://github.com/bioboot/web-2017) repo) 
@@ -10,6 +10,8 @@ below for full instructions)
 
 
 ### Roll forward instructions...
+
+**update 2019** used git mirror to clone 2018 site
 
 To roll forward for a new years class follow the steps below (assuming you already have **jekyll** and **github-pages** 
 setup on your local machine):
