@@ -21,8 +21,8 @@ Git clone old site to a new dir
   	cd ~/Dropbox/Teaching
   	mkdir Bootcamp_2019
   	cd Bootcamp_2019
-  	git clone git@github.com:bioboot/web-2018.git web-2019
-  	cd web-2019/
+  	git clone https://github.com/dcmb-courses/bioinf606-2018 bioinf606-2019
+  	cd bioinf606-2019/
   
 Update `_config.yml` and `index.md`. IN particular, rembember to change the dates and the pre-course questionnaire and post-course evaluation forms. Go through the regular `git add`, `git commit -m` cycle. But don’t yet push to GitHub (as we will want a new repo for this years class).
   
