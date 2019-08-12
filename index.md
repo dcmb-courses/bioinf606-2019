@@ -100,15 +100,15 @@ layout: page
 ## Other courses 
 **BIOINF-575**: Programing Lab in Bioinformatics  
 (Winter term)   
-<https://medicine.umich.edu/dept/dcmb/graduate-education/course-descriptions>
+<https://medicine.umich.edu/dept/dcmb/education/course-descriptions#bioinf-575-programming-laboratory-in-bioinformatics->
 
 **BIOINF-525**: Foundations of Bioinformatics & Systems Biology  
 (Winter term)   
-<https://bioboot.github.io/bioinf525_w16/>
+<https://medicine.umich.edu/dept/dcmb/education/course-descriptions#bioinf-525-foundations-in-bioinformatics-and-systems-biology->
 
 **HG-551**: Computational Genomics  
 (Winter term)   
-<https://medicine.umich.edu/sites/default/files/content/downloads/HG551-Syllabus-2016.pdf>  
+<https://medicine.umich.edu/sites/default/files/content/downloads/HG551%20Syllabus%202018.pdf>  
 
 **ARC:** Computing Workshops  
 (Throughout the year)   
