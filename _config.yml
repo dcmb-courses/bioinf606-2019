@@ -9,12 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/bioinf606-2019" # the subpath of your site, e.g. /blog/
 url: "http://dcmb-courses.github.io/bioinf606-2019" 
 twitter_username: 
-github_username: 
-  - remills 
-  - hyunminkang 
-  - jhui2014 
-  - bankhead3 
-  - mitreac
+github_username: remills
 
 # Build settings
 markdown: kramdown
