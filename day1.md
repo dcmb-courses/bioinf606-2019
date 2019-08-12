@@ -35,7 +35,7 @@ Hui Jiang (HJ)
 
 ### Topics:
 
-#### I)   Setup and Motivation [1:15 hr]  HJ ([Slides](../class-material/slides_day1-1_unix-motivation.pdf))  ([Example data](../class-material/bootcamp_01_unix.tar.gz))  
+#### I)   Setup and Motivation [1:15 hr] ([Slides](../class-material/slides_day1-1_unix-motivation.pdf))  ([Example data](../class-material/bootcamp_01_unix.tar.gz))  
 - Setup
 - Motivation (Why do we use Unix?)
 	- Modularity, workflows, programmability, existing tools, and the Unix philosophy
@@ -44,7 +44,7 @@ Hui Jiang (HJ)
 
 —- Coffee Break [15 mins] —  
 
-#### II)   Beginning Unix [1:30 hr]  HJ ([Slides](../class-material/Unix_day1_Hui.pdf))
+#### II)   Beginning Unix [1:30 hr] ([Slides](../class-material/Unix_day1_Hui.pdf))
 - Beginning Unix (shell vs terminal, common commands)
 - Understanding processes (Listing, suspending, killing and background processes)
 - File system structure
@@ -55,7 +55,7 @@ Hui Jiang (HJ)
 
 —- Lunch Break [1 hr] —  
 
-#### III)   Working with Unix [1.15 hr] HJ ([Slides](../class-material/slides_day1-3_unix-work.pdf))
+#### III)   Working with Unix [1.15 hr] ([Slides](../class-material/slides_day1-3_unix-work.pdf))
 - File editing
 - Redirecting
 - Streams & Pipes 
@@ -64,7 +64,7 @@ Hui Jiang (HJ)
 
 —- Coffee Break [15 mins] —  
 
-#### IV)   How to Get Working [1.30 hr] HJ
+#### IV)   How to Get Working [1.30 hr] 
 - Project organization   
 - Compiling software
 

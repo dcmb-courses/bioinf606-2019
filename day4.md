@@ -29,18 +29,14 @@ Afternoon sessions will introduce cluster computing. Computer clusters typically
 <br>
 
 ### Instructors:
-Alan Boyle (APB)
-Ryan Mills (RM)  
-Drew Montag (DM)
-
-### Assistants:
+Hyun Min Kang (HMK)
 Ken Weiss (KW)
 
 <br>
 
 ### Topics:
 
-### I)   Version Control with Git [1:15 hr]  APB ([Slides](../class-material/slides_day4-1_git.pdf))
+### I)   Version Control with Git [1:15 hr]  HMK ([Slides](../class-material/slides_day4-1_git.pdf))
 - What is VCS and Git?,  (10-15 mins)
 - Motivation: Why use Git?
  - Project snapshot history with rollbacks, Track changes from others, Sharing and updating mechanism, Keeping work organized and available.
@@ -53,7 +49,7 @@ Ken Weiss (KW)
 
 —- Coffee Break [15 mins] —
 
-### II)   Collaborating with GitHub [1:30 hr]  APB ([Slides](../class-material/slides_day4-2_github.pdf)) ([Tutoral](https://github.com/bioboot/demo2-github))
+### II)   Collaborating with GitHub [1:30 hr]  HMK ([Slides](../class-material/slides_day4-2_github.pdf)) ([Tutoral](https://github.com/bioboot/demo2-github))
 - Online Remote Repositories GitHub & Bitbucket
  - Paradigm shift in software development (permissions and open development)
  - The GitHub steam-train and StackOverflow 
@@ -67,7 +63,7 @@ Ken Weiss (KW)
 
 —- Lunch Break [1 hr] —
 
-### III)   Concepts in Cluster Computing [1.15 hr]  DM  ([Slides](../class-material/slides_day4_flux.pdf))
+### III)   Concepts in Cluster Computing [1.15 hr]  KW  ([Slides](../class-material/slides_day4_flux.pdf))
 - Connecting to FLUX
 - Why cluster computing? 
 - Cluster job submission
@@ -76,7 +72,7 @@ Ken Weiss (KW)
 
 —- Coffee Break [15 mins] —
 
-### IV)   Parallelization Strategies & Workflow Management [1.30 hr] RM
+### IV)   Parallelization Strategies & Workflow Management [1.30 hr] KW
 - [Using Clusters for Exploring Large Data Datasets](../class-material/day4-clusters.html)
 
 —- End/Wrap-Up —

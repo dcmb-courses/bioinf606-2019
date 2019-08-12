@@ -4,13 +4,7 @@ title: Day 2
 permalink: /day2/
 ---
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betteridiot/biocomp_bootcamp/master?urlpath=lab&filepath=index.ipynb)
-[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/betteridiot/biocomp_bootcamp/blob/master/CODE_OF_CONDUCT.md)
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-green.svg)](https://github.com/betteridiot/biocomp_bootcamp/blob/master/LICENSE)
-
-
 # Day 2. Introduction to Programming
-Instructor: Marcus D. Sherman
 
 Much of bioinformatics requires manipulation of data data sets, execution of multiple external programs, and summary and analysis of results.  Many programming langagues, such as Perl and Python excel at these tasks. Python is a powerfull language with many external packages that permit sophisticated analysis workflows. Here, we will provide an overview of the Python language, demonstrate basic concepts in programming, and show how to create figures and utilize Jupyter notebooks.  
 
@@ -28,6 +22,11 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 | III       | 1:00-2:15 PM   | **Control Structures and Functions**    |
 | &#9749;   | 2:15-2:30 PM   | Coffee Break             |
 | IV        | 2:30-4:00 PM   | **System Calls and Plotting**   |
+
+<br>
+
+### Instructors:
+Cristina Mitrea
 
 ---
 
