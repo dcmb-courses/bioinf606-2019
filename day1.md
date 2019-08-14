@@ -44,7 +44,7 @@ Hui Jiang (HJ)
 
 —- Coffee Break [15 mins] —  
 
-#### II)   Beginning Unix [1:30 hr] ([Slides](../class-material/Unix_day1_Hui.pdf))
+#### II)   Beginning Unix [1:30 hr] ([Slides](../class-material/slides_day1-2_unix-intro.pdf))
 - Beginning Unix (shell vs terminal, common commands)
 - Understanding processes (Listing, suspending, killing and background processes)
 - File system structure
