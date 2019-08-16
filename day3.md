@@ -33,7 +33,7 @@ Armand Bankhead (AB)
 
 ### Topics:
 
-#### I)   Introduction to R [1:15 hr] [slides](../class-material/slides_day3-1_R-introductionV2.pdf)
+#### I)   Introduction to R [1.25 hr] [slides](../class-material/slides_day3-1_R-introductionV2.pdf)
 - What is R and Why Use it?
 - Ways to Use R
 - R as a Statistical Programming Language
@@ -46,7 +46,7 @@ Armand Bankhead (AB)
 
 —- Coffee Break [15 mins] —
 
-#### II)   R Control Structures and Functions [1:30 hr] [slides](../class-material/slides_day3-2_R-controlV3.pdf)
+#### II)   R Control Structures and Functions [1.5 hr] [slides](../class-material/slides_day3-2_R-controlV3.pdf)
 - Working Directory 
 - Reading and Writing Data in R
 - Factors
@@ -58,13 +58,13 @@ Armand Bankhead (AB)
 
 —- Lunch Break [1 hr] —
 
-#### III)   Data Exploration and Visualization in R [slides](../class-material/slides_day3-3_visualizationV3.pdf)
+#### III)   Data Exploration and Visualization in R 1.25 hr [slides](../class-material/slides_day3-3_visualizationV3.pdf)
 - Summarizing Data in R
 - Creating Plots in R
 
 —- Coffee Break [15 mins] —
 
-#### IV)   Working with packages from CRAN & Bioconductor [1.30 hr] [slides](../class-material/slides_day3-4_R_packagesV2.pdf)
+#### IV)   Working with packages from CRAN & Bioconductor [1.5 hr] [slides](../class-material/slides_day3-4_R_packagesV2.pdf)
 - CRAN - the Comprehensive R Archive Network
 - Bioconductor bioinformatics package system
 - Package Installation
