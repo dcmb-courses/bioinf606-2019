@@ -7,17 +7,17 @@ permalink: /setup/
 # Software Requirements & Setup Instructions
 To fully participate in this boot camp, you will need access to the software described below on **your own laptop** (N.B. You will likely need _Administer privileges/permissions_ to install some of these). 
 
-**Access to the FLUX computer cluster:**
-In addition to the software listed further below, you will require access to the University of Michigan FLUX computer cluster. To obtain access to FLUX you will need to first fill out this [online form](https://arc-ts.umich.edu/fluxform/) with your UMICH unique name, the advisor name of "Michael Boehnke" (email: boehnke@umich.edu) and list "Participant in Introduction to Biocomputing course (BIOS/BIOI/HG 606)" in the project description field.
+<!-- **Access to the FLUX computer cluster:** -->
+<!-- In addition to the software listed further below, you will require access to the University of Michigan FLUX computer cluster. To obtain access to FLUX you will need to first fill out this [online form](https://arc-ts.umich.edu/fluxform/) with your UMICH unique name, the advisor name of "Michael Boehnke" (email: boehnke@umich.edu) and list "Participant in Introduction to Biocomputing course (BIOS/BIOI/HG 606)" in the project description field. -->
 
-You must use **Duo authentication** to log on to Flux. Most people
-find using the Duo Mobile app on a smartphone to be the most
-convenient method (although hardware keyfobs are also available). This
-entails installing the app and then confirming a notification on your
-phone at the time of login. For more details see:
-[http://its.umich.edu/two-factor-authentication](http://its.umich.edu/two-factor-authentication). We
-will cover FLUX login and usage on [Day 4]({{ site.baseurl }}/day4/)
-of this course.
+<!-- You must use **Duo authentication** to log on to Flux. Most people -->
+<!-- find using the Duo Mobile app on a smartphone to be the most -->
+<!-- convenient method (although hardware keyfobs are also available). This -->
+<!-- entails installing the app and then confirming a notification on your -->
+<!-- phone at the time of login. For more details see: -->
+<!-- [http://its.umich.edu/two-factor-authentication](http://its.umich.edu/two-factor-authentication). We -->
+<!-- will cover FLUX login and usage on [Day 4]({{ site.baseurl }}/day4/) -->
+<!-- of this course. -->
 
 <br>
 
