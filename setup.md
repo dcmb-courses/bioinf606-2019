@@ -10,7 +10,42 @@ To fully participate in this boot camp, you will need access to the software des
 **Access to the FLUX computer cluster:**
 In addition to the software listed further below, you will require access to the University of Michigan FLUX computer cluster. To obtain access to FLUX you will need to first fill out this [online form](https://arc-ts.umich.edu/fluxform/) with your UMICH unique name, the advisor name of "Michael Boehnke" (email: boehnke@umich.edu) and list "Participant in Introduction to Biocomputing course (BIOS/BIOI/HG 606)" in the project description field.
 
-You must use **Duo authentication** to log on to Flux. Most people find using the Duo Mobile app on a smartphone to be the most convenient method (although hardware keyfobs are also available). This entails installing the app and then confirming a notification on your phone at the time of login. For more details see: [http://its.umich.edu/two-factor-authentication](http://its.umich.edu/two-factor-authentication). We will cover FLUX login and usage on [Day 4]({{ site.baseurl }}/day4/) of this course.
+You must use **Duo authentication** to log on to Flux. Most people
+find using the Duo Mobile app on a smartphone to be the most
+convenient method (although hardware keyfobs are also available). This
+entails installing the app and then confirming a notification on your
+phone at the time of login. For more details see:
+[http://its.umich.edu/two-factor-authentication](http://its.umich.edu/two-factor-authentication). We
+will cover FLUX login and usage on [Day 4]({{ site.baseurl }}/day4/)
+of this course.
+
+<br>
+
+# Request your account at GreatLakes cluster for Day 4
+
+First, you will need to apply for GreatLakes cluster account for Day
+4 by following the steps below.
+
+* Visit [https://arc-ts.umich.edu/greatlakes/user-guide/](https://arc-ts.umich.edu/greatlakes/user-guide/) with your laptop.
+* Under the #2 at the top of the page, click on the **Fill Out Form**
+  button.
+* Login using your Kerberos password and Duo two-factor
+  authentication.
+  * If you have not activatived duo two-factor authentication yet,
+  please visit [**UMICH Duo
+  Page**](https://safecomputing.umich.edu/two-factor-authentication)
+  to get one.
+* Enter **hmkang** (Hyun Min Kang) as advisor's name.
+* Enter **hmkang@umich.edu** as advisor's email.
+* For “college or department” have them select:  **Medicine**
+  * It is very important to select **Medicine**, NOT your own school or
+department for this purpose of bootcamp.
+* For “describe project” put: **bioinformatics bootcamp**
+* For “ARC-TS services” select: *Great Lakes*
+* Tick **I agree** and click **Submit** button to complete your
+  request.
+* Mark in the attendance sheet that you have completed the request so
+  that instructors can double check.
 
 
 <br>
