@@ -19,9 +19,9 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 | &#9749;   | 10:15-10:30AM  | Coffee Break              |
 | II        | 10:30-12:00 AM | **Variables, Data Structures, and I/O**       |
 | &#127869; | 12:00-1:00PM   | Lunch                   |
-| III       | 1:00-2:15 PM   | **Control Structures and Functions**    |
+| III       | 1:00-2:15 PM   | **Numpy, Control Structures and Functions**    |
 | &#9749;   | 2:15-2:30 PM   | Coffee Break             |
-| IV        | 2:30-4:00 PM   | **System Calls and Plotting**   |
+| IV        | 2:30-4:00 PM   | **Pandas, System Calls and Plotting**   |
 
 <br>
 
@@ -32,31 +32,39 @@ Cristina Mitrea
 
 ## Overview:
 ### Session I: Intro to Python and Programming Concepts [1:15 hr]
-- What is Python?  What is programming?
-- Setup and execution of simple scripts
+- What is programming?
+- Programming concepts
+- What is a programming language?
+- What is Python? 
+- Python syntax
 
 ##### &#8212; &#9749; Coffee Break [15 mins]
 
 ### Session II: Variables, Data Structures, and I/O [1:30 hr] 
+- Python notebooks
+- Basic code writing
 - What is a variable?
 - Data Structures:
   - Mutable vs Immutable
   - Lists vs Tuples
   - Dictonaries and Sets
 - Input/Output and File Handling
+- `numpy`
 
 ### &#8212; &#127869; Lunch Break [1 hr]
 
-### Session III: Control Structures and Functions [1.15 hr]
+### Session III: Numpy, Control Structures and Functions [1.15 hr]
+- `numpy`
 - Control structures and loops
 - Functions
 
 ##### &#8212; &#9749; Coffee Break [15 mins]
 
-### Session IV: System Calls and Plotting [1.30 hr]
-- Calling external programs
+### Session IV: Pandas, System Calls and Plotting [1.30 hr]
+- `pandas`
 - Tabular data analysis with `pandas`
-- Plotting using `matplotlib` and `seaborn`
+- Calling external programs
+- Plotting using `plotnine`, `matplotlib` and `seaborn`
 
 ### Wrap-up
 - Summary

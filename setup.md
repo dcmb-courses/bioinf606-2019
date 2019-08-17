@@ -95,9 +95,13 @@ When you're writing code, it's nice to have a text editor that is optimized for 
 <br>
 
 ### R and RStudio
-R Binaries for Windows, MacOSX and Linux can be downloaded and installed from [CRAN](http://cran.r-project.org/index.html) (Comprehensive R Archive Network). If possible download the latest binary version of R for your operating system. As of course launch (Aug 16) the latest release (2016/06/21, "Bug in Your Hair") is R-3.3.1.
+R Binaries for Windows, MacOSX and Linux can be downloaded and
+installed from [CRAN](http://cran.r-project.org/index.html)
+(Comprehensive R Archive Network). If possible download the latest
+binary version of R for your operating system. As of course launch
+(Aug 16) the latest release (2019/08/21, "Action of the Toes") is R-3.6.1.
 
-After installing R itself we recommend installing the *preview* version of [RStudio](https://www.rstudio.com/products/rstudio/download/preview/) desktop (v0.99.1285 or above), a slick visual interface for R.
+After installing R itself we recommend installing [RStudio](https://www.rstudio.com/products/rstudio/download/#download) desktop (v1.2.1335 or above), a slick visual interface for R.
 
 
 
@@ -106,7 +110,8 @@ After installing R itself we recommend installing the *preview* version of [RStu
 ### Python
 Python is a popular language for scientific computing. Installing all of its scientific packages individually can be a bit difficult, so we recommend an all-in-one installer.
 
-Regardless of how you choose to install it, please make sure you install Python version 3.6.
+Regardless of how you choose to install it, please make sure you
+install Python version 3.6 or later.
 
 We will teach Python using the Jupyter notebook, a programming environment that runs in a web browser. For this to work you will need a reasonably up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are all supported (some older browsers, including Internet Explorer version 9 and below, are not).
 
@@ -114,7 +119,7 @@ We will teach Python using the Jupyter notebook, a programming environment that 
 Download the default *Python 3 graphical installer* installer. Use all of the defaults for installation except make sure to check _Make Anaconda the default Python_.
 
 **Mac OS X:** Download and install [Anaconda](http://continuum.io/downloads.html).
-Download the default "Mac OS X **Python 3.6** Graphical Installer". Use all of the defaults for installation.
+Download the default "Mac OS X **Python 3.7** Graphical Installer". Use all of the defaults for installation.
 
 **Linux:** As above, we recommend the all-in-one scientific Python installer for linux [Anaconda](http://continuum.io/downloads.html).
 
