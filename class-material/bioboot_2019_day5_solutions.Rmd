@@ -1,0 +1,538 @@
+---
+title: "BIOSTAT/BIOINF/HUMGEN606 (2019) Day 5 - with spoilers"
+output:
+  html_document:
+    df_print: paged
+---
+
+## Preamble
+
+This is an R-version of Biocomputing Bootcamp Dat 5 material, which was written in python notebook first at https://colab.research.google.com/drive/10toqlqt1HYluzFLVW5a13cWzbWoXBuob. It is recommended to finish the python version first, unless the student definitely wants to skip the python part. Many parts of of this notebook assumes that you've already finished the python part, although it keeps redundant information for the R-only users.
+
+---
+
+## Overview of single cell RNA-seq (scRNA-seq) data
+
+Droplet-based single-cell RNA-seq is a new technology that allows us to profile thousands of single cell transcriptomes with a single library preparation. We will use publicly available dataset to perform basic analysis using the skillsets we have learned during this week. See the overview lecture (posted in the course web site) to have some basic understandings of scRNA-seq technology
+
+---
+
+## Downloading PBMC 3k data
+
+### Download the PBMC 3k data
+
+We will download 2,700 PBMC cells publicly available from [10X Chromium web site](https://s3-us-west-2.amazonaws.com/10x.files/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz). Please use a web browser to download the file.
+
+
+### Uncompress the downloaded file.
+
+Uncompress the downloaded file using a file browser (Windows Explorer or Finder). *Extract* the file, then you will see a directory named `filtered_gene_bc_matrices`. Here we will assume that you downloaded the files to a directory named `~/Downloads` (`~` represents your current home directory in most systems). If you downloaded the file in another directory, you will need to make a corresponding change.
+
+### [DIY] Check whether the file exists or not.
+
+Use the following codes to make sure that the file exists. You may need to modify `indir` in the code below. We will read first ten tokens to see how the files look like.
+
+```{r}
+## [DIY] Make corresponding changes in the code below if needed.
+indir = "~/Downloads/filtered_gene_bc_matrices/hg19"
+print(scan(paste0(indir,"/barcodes.tsv"),what=character(),nmax=10))
+print(scan(paste0(indir,"/genes.tsv"),what=character(),nmax=10))
+print(scan(paste0(indir,"/matrix.mtx"),what=character(),nmax=10))
+```
+
+*Q* Do you understand what how the file look like? If unclear, use text editor to load the file, or use `read.table()` function instead to read the data in a tabular form.
+
+## Reading the input file into a matrix
+
+### [DIY] Write read_dge() function
+
+Your first assignment is to write a R function that takes three input files - bcdf (e.g. barcode.tsv), genef (e.g. genes.tsv), mtx (e.g. matrix.mtx) - to return a numpy matrix and associated lists. The detailed specification of the function is given in the code segment below.
+
+You may use the `read.table()` or `scan()` functions to read three files
+
+```{r}
+#' read_dge() : function to read digital expression matrix in 10x genomics format
+#' 
+#' This function takes three files as input to return a digital expression matrix.
+#' Each input file should contain information of cell barcodes, genes, and UMI counts with 
+#' specific formats described below. The function will return a matrix where each row
+#' represents a droplet barcode and each column represents a gene.
+#' 
+#' @param bcdf  Barcode file (typically barcodes.tsv) containing one cell barcode at each line
+#' @param genef Gene file (typically genes.tsv) containing [GENE_ID] and [GENE_NAME] at each line.
+#' @param mtxf  Sparse matrix file (typically matrix.mtx) containing [GENE_INDEX] [BARCODE_INDEX] #'              [UMI_COUNT] from 4-th line for any non-zero entry.
+#' @return A matrix of ([TOTAL_BARCODE_COUNTS] x [TOTAL_GENE_COUNTS]) containing a digital
+#'         expression matrix. Each row name represents barcodes and column name represents
+#'         gene name (not gene id)
+read_dge <- function(bcdf, genef, mtxf) {
+    bcds <- read.table(bcdf)
+    genes <- read.table(genef)
+    mtxs <- read.table(mtxf,skip=3)
+    nbcds <- nrow(bcds)
+    ngenes <- nrow(genes)
+    mat <- matrix(0, nbcds, ngenes)
+    rownames(mat) <- bcds[,1]
+    colnames(mat) <- genes[,2]
+    for(i in 1:nrow(mtxs)) {
+      mat[mtxs[i,2],mtxs[i,1]] = mtxs[i,3]
+    }
+    return(mat)
+}
+```
+
+### Using read_dge() function to load digital expression matrix
+
+Once you implemented the `read_dge()` function, you can run the function using the following specific arguments.
+
+```{r}
+# Run read_dge() function. This may take a while
+dge <- read_dge(paste0(indir,"/barcodes.tsv"),paste0(indir,"/genes.tsv"),paste0(indir,"/matrix.mtx"))
+```
+
+### Sanity check of the return values
+
+Use the following codes to see where the returned matrix conforms to the expected format. It is expected to be a 2700 x 32738 matrix, with first row name `AAACATACAACCAC-1` and the first column name `MIR1302-10`.
+
+```{r}
+print(dim(dge))
+print(dge[1:5,1:5])
+```
+
+##  Summarize and visualize basic statistics
+
+Using `ggplot2` package, we will summarize and visualize the basic statistics from digital expression matrix.
+
+### [DIY] Asking basic questions about the digital expression matrix
+
+We do not know much about the data we have just loaded yet. Let's try to find out the answer for the following questions.
+
+1. What is the total number of UMis across all genes and barcodes?
+2. How sparse is the digital matrix? How many barcode/gene pairs have nonzero elements?
+3. Are theres gene that are not expressed at all? If so, how many genes as such?
+
+Each of these questions can be answered with one or two lines of simple R code. 
+
+```{r}
+# DIY -- Write simple lines of codes to answer to each of these basic questions
+
+# 1. What is the total number of UMis across all genes and barcodes?
+# Write your code here
+print(sum(dge))
+
+# 2. How sparse is the digital matrix? How much proportion of barcode/gene pairs have nonzero elements?
+# Write your code here
+print(sum(dge>0) / length(dge))
+
+
+# 3. Are theres gene that are not expressed at all? If so, how many such genes exist?
+# Write your code here
+print(sum(colSums(dge)>0))
+```
+
+### [DIY] Collect summary statistics and visualize them for each barcoded droplet
+
+The next, task is to collect basic summary statistics for each barcoded droplet. 
+* Create a dataframe named `df_bcd` with the following two summary statistics for each barcode. 
+  * `nUMI` : The total sum of UMI counts across all genes for given barcoded droplet.
+  * `nGene` : The number of expressed genes (genes with positive UMI counts) for given barcoded droplet.
+* The row names of dataframe should be the droplet barcode. 
+* Upon successful creation, the first five rows should look like the following example.
+```
+print(head(df_bcd))
+                    nUMI  nGene
+AAACATACAACCAC-1  2421.0    781
+AAACATTGAGCTAC-1  4903.0   1352
+AAACATTGATCAGC-1  3149.0   1131
+AAACCGTGCTTCCG-1  2639.0    960
+AAACCGTGTATGCG-1   981.0    522
+```
+
+```{r}
+# Summarize basic statistics for each barcode 
+# [DIY] Here, create a dataframe named df_bcd, with nUMI and nGene. 
+df_bcd <- data.frame(nUMI=rowSums(dge), nGene=rowSums(dge>0), row.names=rownames(dge))
+print(head(df_bcd))
+```
+
+### Summarize the summary statistics for each barcoded droplet
+
+Use `summary()` function to summarize each attribute in the dataframe created above.
+
+```{r}
+# Calculate the basic summary statistics
+print(summary(df_bcd))
+```
+
+### Draw the histogram of each summary statistics.
+
+You may use `ggplot2` and `geom_histogram` to draw the distribution of each variable. as shown in the examples below.
+
+```{r}
+library(ggplot2)
+# draw a histogram of nUMI and nGene
+# Check the output and see if they make sense.
+print(ggplot(data=df_bcd) + aes(x=nGene) + geom_histogram(binwidth=100,color='black',fill='grey'))
+print(ggplot(data=df_bcd) + aes(x=nUMI) + geom_histogram(binwidth=100,color='black',fill='grey'))
+```
+
+
+### [DIY] Visualize the relationship between the summary statistics
+
+Draw a scatterplot where x-axis is `nGene` and y-axis is `nUMI` using the dataframe `df_bcd`. Using `ggplot2` package is recommended.
+
+```{r}
+# Show the relationship between nUMI and nGene by cells
+# [DIY] Here, create a ggplot as specified.
+print(ggplot(data=df_bcd) + aes(x=nGene,y=nUMI) + geom_point())
+```
+
+### [DIY] Add transparency to the plots
+
+The plots you create will have area with too much overlaps with points to understand which area is more densely populated with points. Add `alpha` parameter (e.g. value of 0.1) to add transparency in the points.
+
+```{r}
+# Add alpha = 0.1 parameter to add transparency
+# [DIY] Here, enter the modified line of ggplot command
+print(ggplot(data=df_bcd) + aes(x=nGene,y=nUMI) + geom_point(alpha=0.1))
+```
+
+### [DIY] Change the axis in log scale.
+
+You may have noticed that the distribution may look more symmetric if it was plotted in log-scale. Change both x-axis and y-axis into log-scale. 
+
+Note that it is safer to plot `nGene+1` and `nUMI+1` to avoid losing data points with zero values.
+
+```{r}
+# Plot nGene+1 and nUMI+1 in log10 scale in both axis
+# [DIY] Here, enter the modified line of ggplot command
+print(ggplot(data=df_bcd) + aes(x=nGene+1,y=nUMI+1) + geom_point(alpha=0.1)+scale_x_log10()+scale_y_log10())
+```
+
+### [DIY] Collect summary statistics and visualize them for each gene
+
+Similarly, we can collect basic summary statistics for each gene, across all barcodes. 
+* Create a dataframe named `df_gene` with the following two summary statistics for each gene. 
+  * `nUMI` : The total sum of UMI counts across all barcodes for the given gene.
+  * `nBCD` : The number of droplet barcodes expressing the gene (with positive UMI counts).
+* The dataframe should be indexed by each gene name. 
+* Upon successful creation, the first five rows should look like the following example.
+
+```
+print(head(df_gene))
+              nUMI  nBCD
+MIR1302-10     0       0
+FAM138A        0       0
+OR4F5          0       0
+RP11-34P13.7   0       0
+RP11-34P13.8   0       0
+AL627309.1	   9       9
+```
+
+```{r}
+# Summarize basic statistics for each gene
+# [DIY] Here, create a dataFrame named df_gene, with nUMI and nBCD as attributes 
+# This task can be done in as few as one line
+# Check out pandas cheatsheet and tutorial if needed.
+df_gene  = data.frame(gene=colnames(dge), nUMI = colSums(dge), nBCD = colSums(dge>0))
+print(head(df_gene)) # This command will allow you to check whether the output is the same as expected.
+```
+
+### Summarize the summary statistics for each gene
+
+Use `summary()` function to summarize each attribute in the pandas dataframe created above.
+
+**Q** Compared to `df_bcd` examples, what is the outstanding difference in the summary statistics by gene?
+
+```{r}
+# calculate the basic summary statistics for each gene
+print(summary(df_gene))
+```
+
+### [DIY] Draw the histogram of each summary statistics.
+
+You may use `geom_histogram` to draw the distribution of each variable in `df_gene`. 
+
+```{r}
+# draw a histogram of nUMI and nBCD
+# Use geom_histogram, similar to the examples in df_bcd.
+print(ggplot(data=df_gene) + aes(x=nBCD) + geom_histogram(binwidth=100,color='black',fill='grey'))
+print(ggplot(data=df_gene) + aes(x=nUMI) + geom_histogram(binwidth=1000,color='black',fill='grey'))
+```
+
+### [Freeform] Explore the dataset more
+
+You may want to explore the dataset we loaded in various other ways. Use this area as a sandbox to create any exploratory analysis on the summary statistics you've generated.
+
+```{r}
+# This is a sandbox area. Feel free to add any additional analysis 
+# to better understand the data you've loaded.
+```
+
+--- 
+
+## Normalization and manifold learning.
+
+Next, we will perform a simple normalization of the expression matrix and will perform manifold learning on the normalized expressions.
+
+### [DIY] Log-normalization
+
+As shown in the summary statistics of each gene, there are relatively a small number of genes that are much highly expressed than other genes, so they may explain most of the variations between the cells. To alleviate such effects, one common practice is to convert the data using a simple log-normalization.
+
+Suppose $X \in \{0,1,2,\ldots\}^{B \times G}$ be the matrix of UMI counts across $B \in \{1,2,\ldots\}$ barcoded droplets and $G \in \{1,2,\ldots\}$ genes. Then the sum of UMI counts across the gene for each barcoded droplet is 
+
+$$
+C_b = \sum_{g=1}^G X_{bg}
+$$
+
+Then the normalized expression matrix $Y \in [0,\infty)^{B \times G}$ can be represented as
+
+$$
+Y_{bg} = \log\left[1+X_{bg}\frac{F}{C_b}\right]
+$$
+
+where $F > 0$ is a fixed scaling factor. We will use $F = 10,000$ for our analysis.
+
+Now, your task is create a new matrix `norm_dge` from the UMI count matrix `dge`, using the normalization equation given above using $F = 10,000$. Use `log1p()` function if needed.
+
+```{r}
+# Log-normalize the digital expression matrix
+# The input matrix is dge
+# The output matrix is to be named as norm_dge
+# [DIY] Calculate norm_dge from dge
+norm_dge <- log1p(dge / matrix(df_bcd$nUMI/10000,nrow(dge),ncol(dge),byrow=FALSE))
+```
+
+### Manifold learning using UMAP
+
+UMAP (Uniform Manifold Approximation and Projection) is an emerging method to create low-dimensional manifold from high-dimensional data, and it is one of the most popularly used method for understanding the cell types of single cell genomic data. For more information, refer to the following resource.
+* https://umap-learn.readthedocs.io/en/latest/
+* https://arxiv.org/abs/1802.03426
+We will use `uwot` package, which is an R implementation of UMAP to take `norm_dge` as input to create 2-dimensional manifold `umap_dge` for each barcoded droplet. First, we will make sure that `uwot` is installed in your R environment. If not, 
+
+```{r}
+## Check if uwot package is installed.
+if ( require('uwot') == FALSE ) {
+  install.packages('uwot') ## install if not already installed
+  library('uwot')
+} else {
+  print("uwot package is already installed")
+}
+```
+
+We will compute UMAP coordinates using `uwot` package, with default parameter, except that we will first compute 20 principal components (PCs) and perform UMAP on the PCs, to save the computational time. 
+
+```{r}
+## Calculate umap from normalized dge, using 20 PCs
+## Report the elapsed time
+print( system.time( umap_dge <- umap(norm_dge, pca=20) ) )
+```
+
+Let's take a peek of the output from the UMAP procedure above.
+
+```{r}
+print(dim(umap_dge))
+print(head(umap_dge))
+```
+
+### [DIY] Add attributes to the existing dataframe
+
+Modify the dataframe `df_bcd` by adding two additional attributes - `UMAP1` and `UMAP2` - using `umap_dge` computed above. This will allow us to visualize the UMAP manifolds with respect to other summary statistics. 
+
+```{r}
+# [DIY] Add 'UMAP1' and 'UMAP2' attributes to the DataFrame df_bcd
+# Use two columns from umap_mtx as 'UMAP1' and 'UMAP2', respectively.
+df_bcd$UMAP1 = umap_dge[,1]
+df_bcd$UMAP2 = umap_dge[,2]
+
+# Just to peek the beginning of the modified dataframe. 
+# Make sure UMAP1 and UMAP2 exist in the output
+print(head(df_bcd))
+```
+
+### [DIY] Visualize the UMAP manifolds
+
+Create a scatterplot where x-axis is `UMAP1`, and y-axis is `UMAP2` and each point is colored by `nUMI` attributes, where each point represents a barcoded droplet. Make sure that points are reasonably distinguishable by modifying the size and transparency of the points.
+
+**Q** Does the output plot make sense to you? Can you interpret how they are clustered?
+
+```{r}
+# [DIY] Create a scatterplot, with the following specs: 
+# * x-axis is UMAP1 
+# * y-axis is UMAP2
+# * color of each point is nUMI
+# * adjust the size and transparency of the points for better presentation
+print(ggplot(data=df_bcd) +aes(x=UMAP1,y=UMAP2,color=nUMI) + geom_point(size=0.5,alpha=0.3))
+```
+
+---
+
+## Cell-type-specific analysis
+
+The UMAP manifolds we generated above give hints about cell-type-specific nature of the single-cell transcriptomic profiles. 
+
+Using existing knowledges of these PBMC cell types, we will visualize the distribution of gene expressions across the manifold space. 
+
+As suggested https://satijalab.org/seurat/v3.0/pbmc3k_tutorial.html , these are (incomplete) examples biomarkers representing known cell types.
+
+Marker Genes | Cell Types (in the tutorial) | Cell Types from Other Sources |
+--- | --- | ---
+*IL7R*	 |  CD4+ T cell | T helper cell
+*CCR7* | Naive CD4+ T cell | Naive T cell
+*S100A4* | Memory CD4+ T cell | Memory T-cell
+*CD14* | CD14+ Monocyte | Monocytes, Macrophages, and Dentritic Cell
+*LYZ*   | CD14+ Monocyte | Monocytes, Macrophages, and Dentritic Cell
+*MS4A1* | B cell | B-cell
+*CD8A* | CD8+ T cell | Cytotoxic T-cell
+*FCGR3A* | FCGR3A+ Monocyte | CD16+ Monocytes and NK cell
+*MS4A7* | FCGR3A+ Monocyte | CD16+ Monocytes
+*GNLY* | NK cell | Natural Killer (NK) cell
+*NKG7* | NK cell | Natural Killer (NK) cell
+*FCER1A* | Dentritic cell | Dendritic cell
+*CST* | Dentritic cell | Dendritic cell
+*PPBP* | Platelet | Platelet
+
+### [DIY] Visualize the distribution of marker gene expressions on UMAP manifolds
+
+In the code segment below `marker_genes` and `marker_types` contains the gene names and cell types enriched for the particular cell types. For each marker gene, perform the following tasks
+
+* Add an additional column to `df_bcd` for each marker gene, by using the gene name as the column name and taking the values from corresponding genes in `norm_mtx`.
+* Visualize the expression levels of each marker gene by using `UMAP1` attribute as x-axis, and `UMAP2` attributes as y-axis, and the normalized expression of the marker gene as the color. 
+  * Use `scale_color_gradient()` function to chose an effective color scheme.
+  * Use `ggtitle()` to give informative title (e.g. gene name and enriched cell types) for each of the plot.
+  
+```{r}
+marker_genes = c('IL7R', 'CCR7', 'S100A4', 'CD14', 'LYZ', 'MS4A1', 'CD8A', 'FCGR3A', 'MS4A7', 'GNLY', 'NKG7', 'FCER1A', 'CST3', 'PPBP')
+marker_types = c('CD4+ T','Naive CD4+ T','Memory CD4+ T','CD14+ Mono','CD14+ Mono','B','CD8+ T','FCGR3A+ Mono','FCGR3A+ Mono','NK','NK','Dendritic','Dendritic','Platelet')
+
+# [DIY] For each marker gene, add additional column to df_bcd to represent normalized gene expression levels.
+for (i in 1:length(marker_genes)) {
+  ig = which(colnames(norm_dge) == marker_genes[i])
+  df_bcd[[marker_genes[i]]] = norm_dge[,ig]
+}
+
+print(head(df_bcd)) # This line will give an idea whether each marker gene was properly added as individual columns 
+```
+
+```{r}
+# [DIY] For each marker gene, create a scatter plot of x-axis:UMAP1, y-axis:UMAP2, color:normalized expression levels.
+#       Choose an effective visualization scheme yourself.
+for(i in 1:length(marker_genes)) {
+  g = marker_genes[i]
+  t = marker_types[i]
+  print(ggplot(data=df_bcd) + aes(x=UMAP1,y=UMAP2,color=get(g)) + geom_point(size=0.5,alpha=0.3) + scale_colour_gradient(low='#cccccc',high='#0000ff') + labs(color=g) + ggtitle(paste0('Gene : ',g,' Type : ',t)))
+}
+```
+
+### Clustering by cell types
+
+We can cluster each barcoded droplets by cell types. While there are clearly better ways to cluster cell types, here we will use a simplistic approach - k-means clustering based on the UMAP coordinates - as a quick approach. 
+
+We will use `kmeans()` function to perform a k-means clustering, and the example codes are given below. Because there are four major clusters observed, we will identify 4 clusters.
+
+```{r}
+set.seed(606)
+umap_kmeans <- kmeans(umap_dge, 4)
+df_bcd$kmeans <- umap_kmeans$cluster
+print(ggplot(data=df_bcd) +aes(x=UMAP1,y=UMAP2,color=factor(kmeans)) + geom_point(size=0.5,alpha=0.3) + labs(color='Cluster'))
+```
+
+Note that the clusters do not look exactly the same to the python examples due to many differences in the details of UMAP and kmeans algorithm. The four clusters roughly corresponds to (1) Monocyte + Dendritic cells, (2) B cells and platelets, (3) CD8+ T & NK cells, (4) CD4+ T cells. 
+
+
+### [DIY] Visualize the expression levels of marker genes by clusters
+
+Now, repeat the visualization of marker genes expressions performed previously, but now separating the plots by the clusters from k-means clustering. You may use `facet_wrap()` to achieve this functionality.
+
+```{r}
+# [DIY] For each marker gene, create scatter plots of barcoded droplets.
+#   x-axis : UMAP1
+#   y-axis : UMAP2
+#   color  : marker gene expression
+#   facet  : cluster
+#   Use gene name and cell types in the title of each plot.
+for(i in 1:length(marker_genes)) {
+  g = marker_genes[i]
+  t = marker_types[i]
+  print(ggplot(data=df_bcd) +aes(x=UMAP1,y=UMAP2,color=get(g)) + geom_point(size=0.2,alpha=0.3) + scale_colour_gradient(low='#cccccc',high='#0000ff') + facet_wrap(~factor(kmeans),nrow=1) + labs(color=g) + ggtitle(paste0('Gene : ',g,' Type : ',t)) )
+}
+```
+
+
+
+### [DIY] Identify genes strongly enriched for each cluster
+
+Finally, we will identify genes that are differentially expressed between different cell types (i.e. clusters). Specifically, we will identify marker genes that shows statistically significant enrichment in each particular cluster. To achieve this, you need to implement a function `ttest_mtx()` that performs t-tests between two sets of rows across each individual columns.
+
+For $X = (X_1,\ldots,X_{n_X})$ and $Y = (Y_1,\ldots,Y_{n_Y})$, the equation for unpaired student t-test statistic follows 
+
+$$
+T = \frac{\overline{X} - \overline{Y}}{s_p\sqrt{\frac{1}{n_X}+\frac{1}{n_Y}}}
+$$
+
+where
+
+$$
+s_p^2 = \frac{\sum_{i=1}^{n_X}(X_{i}-\overline{X})^2 + \sum_{j=1}^{n_Y}(Y_{j}-\overline{Y})^2}{n_X+n_Y-2}
+$$
+
+The resulting $T$ is expected to follow a Student's t-distribution with $n_X+n_Y-2$ degrees of freedom under the null hypothesis.
+
+You will need to calculate $T$ and corresponding p-values for each column separately, and return a dataframe containing the following three attributes:
+
+* T-test statistic
+* p-values corresponding to the t-test statistic. Use `scipy.stats.t.sf()` to compute the p-value.
+* Log fold-change, calculated as $\log_2 \left[\frac{\overline{X}}{\overline{Y}}\right]$
+
+The number of rows in the dataframe should be the same to the number of columns in the input matrix.
+
+Avoid corner cases such as $s_p = 0$, $\overline{X} = 0$, or $\overline{Y} = 0$ by adding a very small number (e.g. $10^{-100}$) when overflow/underflow may occur.
+
+```{r}
+#' ttest_mtx : Performs t-test between two sets of rows in a matrix, separately for each column
+#'
+#' This function takes a numpy matrix and two lists of row indices to perform 
+#' column-wise t-tests between two subsets of rows.  
+#'  
+#' @param mtx : A matrix containing normalized expression matrix (# barcodes x # genes)
+#' @param rows_a : A list of integer containing the row indices of one group to be used for t-test
+#' @param rows_b : A list of integer containing the row indices of the other group to be used for t-test
+#' @return : A dataframe containing the following attributes
+#'  * gene   : gene name
+#'  * tstat  : T test statistics
+#'  * log10p : Two-sided -log10 p-values corresponding to the t-test statistics 
+#'  * fc     : fold changes of average expression between the two groups as mean(X)/mean(Y)
+#'  * avg_a  : Average values of rows_a for each gene
+#'  * avg_b  : Average values of rows_b for each gene
+ttest_mtx <- function(mtx, rows_a, rows_b) {
+  mtx_a = mtx[rows_a,]
+  mtx_b = mtx[rows_b,]
+  n_a = length(rows_a)
+  n_b = length(rows_b)
+  m_a = colMeans(mtx_a)
+  m_b = colMeans(mtx_b)
+  s_p = sqrt( (apply(mtx_a,2,var)*(n_a-1) + apply(mtx_b,2,var)*(n_b-1))/(n_a+n_b-2) )
+  tstat = (m_a - m_b)/(s_p+1e-100)/sqrt(1/n_a+1/n_b)
+  fc = (m_a + 1e-100) / (m_b + 1e-100)
+  log10p = 0-(pt(abs(tstat),df=n_a+n_b-2,lower.tail=FALSE,log.p=TRUE)+log(2))/log(10)
+  return(data.frame(gene=colnames(mtx),tstat=tstat, log10p=log10p, fc=fc, avg_a=m_a, avg_b=m_b))
+}
+```
+
+### [DIY] Use ttest_mtx() function to identify strongly enriched genes for each cluster
+
+For each cluster, identify top 20 genes, ordered by highest `fc`, among the genes with p-values smaller than $10^{-6}$ a significant Bonferroni threshold. These genes are representatives of the strongly enriched genes for the particular cluster.
+
+You may want to use https://amp.pharm.mssm.edu/Enrichr/ to evaluate which cell types those genes are enriched for.
+
+```{r}
+# For each cluster 1, 2, 3, 4
+# 1. Identify genes with t-test pvalue < 1e-6 and avg_a > 1
+# 2. Order the significant genes from highest fc, and select the top 20
+# 3. Print the genes with t-statistics, log10 p-values and fc
+for(clust in 1:4) {
+  rst = ttest_mtx(norm_dge, which(df_bcd$kmeans == clust), which(df_bcd$kmeans != clust))
+  rst_top = rst[(rst$log10p > 6) & (rst$avg_a > 1),]
+  print(rst_top[order(rst_top$fc,decreasing=TRUE)[1:20],])
+}
+```
+
