@@ -22,11 +22,11 @@ Typically, a research project can take a very long time to generate the data and
 
 | Session | Time             | Topics                                                 |  
 | :-----: |:----------------:| :------------------------------------------------------|  
-| I       | 9:00-10:15 AM    | **Introduction to scRNA-seq and Overview of Project**      |  
+| I       | 9:00-10:15 AM    | **Introduction to scRNA-seq and Overview of Project**  |  
 |         | 10:15-10:30 AM   | Coffee Break                                           |   
-| II      | 10:30-12:00 AM   | **Obtaining, Parsing and Formatting Data**             |   
+| II      | 10:30-12:00 AM   | **Analysis of scRNA-seq dataset with python**          |   
 |         | 12:00-1:00 PM    | Lunch                                                  |  
-| III     | 1:00-2:15 PM     | **Parallel Association Testing and Visualization**    |  
+| III     | 1:00-2:15 PM     | **Analysis of scRNA-seq dataset with R**               |  
 |         | 2:15-2:30 PM     | Coffee Break                                           |  
 | IV      | 2:30-4:00 PM     | **Group Presentations and Discussion**                 |  
 
@@ -34,6 +34,7 @@ Typically, a research project can take a very long time to generate the data and
 
 ### Instructors:
 Hyun Min Kang (HMK)
+Hui Jiang (HJ)
 
 <br>
 
@@ -49,12 +50,24 @@ Please help us improve this course by completing this [questionnaire](http://tin
 <br>
 
 ### Project Resources
-- [scRNA-seq Introduction Slides](../class-material/handout_day5_intro-scrn-seq.pdf)
+- [scRNA-seq Introduction Slides](../class-material/slides_day5_overview.pdf)
 
 <br>
 
 ### Analysis notebooks
+
+#### Python notebooks 
 - [ipython notebook - scRNA-seq exercise](https://colab.research.google.com/drive/1QWpNnbjyJrmNks4J71hkwQQAUVAvZA-S#scrollTo=R-E10hIyci5B)
-- [ipython notebook - eQTL exercise, with solutions](https://colab.research.google.com/drive/10toqlqt1HYluzFLVW5a13cWzbWoXBuob)
- 
+- [ipython notebook - eQTL exercise, with
+  solutions](https://colab.research.google.com/drive/10toqlqt1HYluzFLVW5a13cWzbWoXBuob)
+  
+#### RStudio notebooks
+
+- [RStudio notebook - scRNA-seq
+  exercise](../class-material/bioboot_2019_day5_problems.Rmd)
+- [RStudio notebook - scRNA-seq exercise, with
+  solutions](../class-material/bioboot_2019_day5_solutions.Rmd)  
+- [RStudio notebook - scRNA-seq exercise, with solutions (HTML)](../class-material/bioboot_2019_day5_solutions.html)    
+
+
 
