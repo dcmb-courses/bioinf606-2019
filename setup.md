@@ -41,11 +41,11 @@ First, you will need to apply for GreatLakes cluster account for Day
   * It is very important to select **Medicine**, NOT your own school or
 department for this purpose of bootcamp.
 * For “describe project” put: **bioinformatics bootcamp**
-* For “ARC-TS services” select: *Great Lakes*
+* For “ARC-TS services” select: **Great Lakes**
 * Tick **I agree** and click **Submit** button to complete your
   request.
-* Mark in the attendance sheet that you have completed the request so
-  that instructors can double check.
+* Mark in the **attendance sheet** that you have completed the request so
+  that instructors can double check later.
 
 
 <br>
