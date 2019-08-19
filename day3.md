@@ -41,8 +41,6 @@ Armand Bankhead (AB)
 - Data Types
 - Data Structures
 - Vector and Matrix Operations
-- Optional Extra #1: [R basics](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/R_basics.md)
-- Optional Extra #2: [working with strings](https://github.com/bioboot/web-2016/blob/gh-pages/class-material/useful_functions.md).
 
 —- Coffee Break [15 mins] —
 
@@ -65,11 +63,12 @@ Armand Bankhead (AB)
 —- Coffee Break [15 mins] —
 
 #### IV)   Working with packages from CRAN & Bioconductor [1.5 hr] [slides](../class-material/slides_day3-4_R_packagesV2.pdf)
-- CRAN - the Comprehensive R Archive Network
-- Bioconductor bioinformatics package system
+- CRAN (Comprehensive R Archive Network)
+- Bioconductor, a bioinformatics package repository
 - Package Installation
 - Package Documentation
 - Package Source Code
+- Tidyverse
 - Example: BiomaRt Bioconductor Package
 
 —- End/Wrap-Up —
