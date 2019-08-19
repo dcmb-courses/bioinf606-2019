@@ -21,7 +21,7 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 | &#127869; | 12:00-1:00PM   | Lunch                   |
 | III       | 1:00-2:15 PM   | **Numpy, Control Structures and Functions**    |
 | &#9749;   | 2:15-2:30 PM   | Coffee Break             |
-| IV        | 2:30-4:00 PM   | **Pandas, System Calls and Plotting**   |
+| IV        | 2:30-4:00 PM   | **Pandas and Plotting**   |
 
 <br>
 
@@ -31,16 +31,16 @@ Cristina Mitrea
 ---
 
 ## Overview:
-### Session I: Intro to Python and Programming Concepts [1:15 hr]
+### Session I: Intro to Python and Programming Concepts [1:15 hr] ([Slides](../class-material/Intro_to_Python_and_Programming_Concepts.pdf))
 - What is programming?
 - Programming concepts
 - What is a programming language?
 - What is Python? 
 - Python syntax
 
-##### &#8212; &#9749; Coffee Break [15 mins]
+—- Coffee Break [15 mins] —  
 
-### Session II: Variables, Data Structures, and I/O [1:30 hr] 
+### Session II: Variables, Data Structures, and I/O [1:30 hr] ([Notebook](https://colab.research.google.com/drive/15XKocjtd45266sFwstnHtq23rn9bDkOc))
 - Python notebooks
 - Basic code writing
 - What is a variable?
@@ -51,19 +51,18 @@ Cristina Mitrea
 - Input/Output and File Handling
 - `numpy`
 
-### &#8212; &#127869; Lunch Break [1 hr]
+—- Lunch Break [1 hr] —  
 
-### Session III: Numpy, Control Structures and Functions [1.15 hr]
+### Session III: Numpy, Control Structures and Functions [1.15 hr] ([Notebook](https://colab.research.google.com/drive/1HFOetU6JGbv8QOzwFqw2a4hOMOcgiist))
 - `numpy`
 - Control structures and loops
 - Functions
 
-##### &#8212; &#9749; Coffee Break [15 mins]
+—- Coffee Break [15 mins] —  
 
-### Session IV: Pandas, System Calls and Plotting [1.30 hr]
+### Session IV: Pandas, System Calls and Plotting [1.30 hr] ([Notebook](https://colab.research.google.com/drive/1OSpIEOaabhhOhs7Yr4L_6exhIkao3bfg))
 - `pandas`
 - Tabular data analysis with `pandas`
-- Calling external programs
 - Plotting using `plotnine`, `matplotlib` and `seaborn`
 
 ### Wrap-up
