@@ -40,7 +40,7 @@ Cristina Mitrea
 
 —- Coffee Break [15 mins] —  
 
-#### II) Variables, Data Structures, and I/O [1:30 hr] ([Notebook](https://colab.research.google.com/drive/15XKocjtd45266sFwstnHtq23rn9bDkOc))
+#### II) Variables, Data Structures, and I/O [1:30 hr] ([Notebook](https://colab.research.google.com/drive/1HFOetU6JGbv8QOzwFqw2a4hOMOcgiist))
 - Python notebooks
 - Basic code writing
 - What is a variable?
@@ -53,7 +53,7 @@ Cristina Mitrea
 
 —- Lunch Break [1 hr] —  
 
-#### III) Numpy, Control Structures and Functions [1.15 hr] ([Notebook](https://colab.research.google.com/drive/1HFOetU6JGbv8QOzwFqw2a4hOMOcgiist))
+#### III) Numpy, Control Structures and Functions [1.15 hr] ([Notebook](https://colab.research.google.com/drive/15XKocjtd45266sFwstnHtq23rn9bDkOc))
 - `numpy`
 - Control structures and loops
 - Functions
