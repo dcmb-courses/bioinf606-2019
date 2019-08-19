@@ -70,7 +70,7 @@ layout: page
 | :-----: |:--------------:| :----------------------- | 
 | I       | 9:00-10:15 AM  | **Version Control with Git** | 
 |         | 10:15-10:30 AM | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Collaborating with GitHub  | 
+| II      | 10:30-12:00 AM | **Collaborating with GitHub**  | 
 |         | 12:00-1:00 PM  | Lunch                    | 
 | III     | 1:00-2:15 PM   | **Concepts in Cluster Computing**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
