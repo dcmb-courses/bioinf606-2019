@@ -60,7 +60,7 @@ Cristina Mitrea
 
 —- Coffee Break [15 mins] —  
 
-### Session IV: Pandas, System Calls and Plotting [1.30 hr] ([Notebook](https://colab.research.google.com/drive/1OSpIEOaabhhOhs7Yr4L_6exhIkao3bfg))
+### Session IV: Pandas and Plotting [1.30 hr] ([Notebook](https://colab.research.google.com/drive/1OSpIEOaabhhOhs7Yr4L_6exhIkao3bfg))
 - `pandas`
 - Tabular data analysis with `pandas`
 - Plotting using `plotnine`, `matplotlib` and `seaborn`
