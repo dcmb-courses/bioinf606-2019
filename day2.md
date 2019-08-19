@@ -16,11 +16,11 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 | Session   | Time           | Topics                   |
 | :-------: |:--------------:| :----------------------- |
 | I         | 9:00-10:15 AM  | **Intro to Python and Programming Concepts** |
-| &#9749;   | 10:15-10:30AM  | Coffee Break              |
+|           | 10:15-10:30AM  | Coffee Break              |
 | II        | 10:30-12:00 AM | **Variables, Data Structures, and I/O**       |
-| &#127869; | 12:00-1:00PM   | Lunch                   |
+|           | 12:00-1:00PM   | Lunch                   |
 | III       | 1:00-2:15 PM   | **Numpy, Control Structures and Functions**    |
-| &#9749;   | 2:15-2:30 PM   | Coffee Break             |
+|           | 2:15-2:30 PM   | Coffee Break             |
 | IV        | 2:30-4:00 PM   | **Pandas and Plotting**   |
 
 <br>
