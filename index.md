@@ -16,7 +16,7 @@ layout: page
 
 **Where:** 3755 SPH1 (School of Public Health building 1) [Map](https://goo.gl/maps/kzaA1T9mPK22)
 
-**N.B.** Please help us improve this course by completing this [pre-course questionnaire](http://bit.ly/2vWofWv). Upon completion please complete our [**post-course evaluation**](https://forms.gle/8yo9pTFaa7oaM4UG9).
+**N.B.** Please help us improve this course by completing this [pre-course questionnaire](http://bit.ly/2vWofWv). Upon completion please complete our [**post-course evaluation**](https://docs.google.com/forms/d/e/1FAIpQLSfmDfrcAyPo3l2NkuVN-xHvM-OeGgRh0bm3xdfzF5JLUEKIhQ/viewform).
 
 <br>
 
