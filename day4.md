@@ -13,7 +13,7 @@ Afternoon sessions will introduce cluster computing. Computer clusters
 typically aim to provide much faster processing speed, larger storage
 capacity, wider availability of resources and often unique computing
 capabilities. We will first introduce cluster computing concepts in
-general and how to use the [Great Lakes cluster](https://arc-ts.umich.edu/greatlakes/) in particular. Topics to be covered include a review of common parallel programming models and basic use of SLURM; dependent and array scheduling; troubleshooting and analysis using checkjob, qstat, and other PBS tools. We will then discuss various practical strategies for dividing and parallelizing workflows and utilizing checkpoints.
+general and how to use the [Great Lakes cluster](https://arc-ts.umich.edu/greatlakes/) in particular. Topics to be covered include a review of common parallel programming models and basic use of SLURM; dependent and array scheduling; troubleshooting and analysis using checkjob, qstat, and other SLURM tools. We will then discuss various practical strategies for dividing and parallelizing workflows and utilizing checkpoints.
 
 <br>
 
