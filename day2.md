@@ -8,9 +8,9 @@ permalink: /day2/
 
 Much of bioinformatics requires manipulation of data data sets, execution of multiple external programs, and summary and analysis of results.  Many programming langagues, such as Perl and Python excel at these tasks. Python is a powerfull language with many external packages that permit sophisticated analysis workflows. Here, we will provide an overview of the Python language, demonstrate basic concepts in programming, and show how to create figures and utilize Jupyter notebooks.  
 
----
+<br>
 
-## Schedule:
+### Schedule:
 
 
 | Session   | Time           | Topics                   |
@@ -28,10 +28,10 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 ### Instructors:
 Cristina Mitrea
 
----
+<br>
 
-## Overview:
-### Session I: Intro to Python and Programming Concepts [1:15 hr] ([Slides](../class-material/Intro_to_Python_and_Programming_Concepts.pdf))
+### Topics:
+#### I) Intro to Python and Programming Concepts [1:15 hr] ([Slides](../class-material/Intro_to_Python_and_Programming_Concepts.pdf))
 - What is programming?
 - Programming concepts
 - What is a programming language?
@@ -40,7 +40,7 @@ Cristina Mitrea
 
 —- Coffee Break [15 mins] —  
 
-### Session II: Variables, Data Structures, and I/O [1:30 hr] ([Notebook](https://colab.research.google.com/drive/15XKocjtd45266sFwstnHtq23rn9bDkOc))
+#### II) Variables, Data Structures, and I/O [1:30 hr] ([Notebook](https://colab.research.google.com/drive/15XKocjtd45266sFwstnHtq23rn9bDkOc))
 - Python notebooks
 - Basic code writing
 - What is a variable?
@@ -53,23 +53,21 @@ Cristina Mitrea
 
 —- Lunch Break [1 hr] —  
 
-### Session III: Numpy, Control Structures and Functions [1.15 hr] ([Notebook](https://colab.research.google.com/drive/1HFOetU6JGbv8QOzwFqw2a4hOMOcgiist))
+#### III) Numpy, Control Structures and Functions [1.15 hr] ([Notebook](https://colab.research.google.com/drive/1HFOetU6JGbv8QOzwFqw2a4hOMOcgiist))
 - `numpy`
 - Control structures and loops
 - Functions
 
 —- Coffee Break [15 mins] —  
 
-### Session IV: Pandas and Plotting [1.30 hr] ([Notebook](https://colab.research.google.com/drive/1OSpIEOaabhhOhs7Yr4L_6exhIkao3bfg))
+#### IV) Pandas and Plotting [1.30 hr] ([Notebook](https://colab.research.google.com/drive/1OSpIEOaabhhOhs7Yr4L_6exhIkao3bfg))
 - `pandas`
 - Tabular data analysis with `pandas`
 - Plotting using `plotnine`, `matplotlib` and `seaborn`
 
-### Wrap-up
-- Summary
-- Questions
+—- End/Wrap-Up —
 
----
+<br>
 
 ## Resources
 
