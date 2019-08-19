@@ -46,7 +46,7 @@ Armand Bankhead (AB)
 
 —- Coffee Break [15 mins] —
 
-#### II)   R Control Structures and Functions [1.5 hr] [slides](../class-material/slides_day3-2_R-controlV3.pdf)
+#### II)   R Control Structures and Functions [1.5 hr] [slides](../class-material/slides_day3-2_R-controlV2.pdf)
 - Working Directory 
 - Reading and Writing Data in R
 - Factors
@@ -58,7 +58,7 @@ Armand Bankhead (AB)
 
 —- Lunch Break [1 hr] —
 
-#### III)   Data Exploration and Visualization in R 1.25 hr [slides](../class-material/slides_day3-3_visualizationV3.pdf)
+#### III)   Data Exploration and Visualization in R 1.25 hr [slides](../class-material/slides_day3-3_visualizationV2.pdf)
 - Summarizing Data in R
 - Creating Plots in R
 
@@ -77,7 +77,7 @@ Armand Bankhead (AB)
 <br>
 
 ### Datasets
-Pedersen Log2RPKM Gene Expression Data: [file1](../class-material/pedersenLog2RPKM20180817.txt) [file2](../class-material/pedersenLog2RPKM_matrix20180817.txt)
+Pedersen Log2RPKM Gene Expression Data: [file1](../class-material/pedersenLog2RPKM_v1.txt) [file2](../class-material/pedersenLog2RPKM_matrix_v1.txt)
 
 ### Reference material
 [RStudio cheatsheet](http://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf):  A well designed reference card for RStudio features  
