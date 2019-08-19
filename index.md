@@ -43,9 +43,9 @@ layout: page
 | &#9749;   | 10:15-10:30AM  | Coffee Break              |
 | II        | 10:30-12:00 AM | **Variables, Data Structures, and I/O**       |
 | &#127869; | 12:00-1:00PM   | Lunch                   |
-| III       | 1:00-2:15 PM   | **Control Structures and Functions**    |
+| III       | 1:00-2:15 PM   | **Numpy, Control Structures and Functions**    |
 | &#9749;   | 2:15-2:30 PM   | Coffee Break             |
-| IV        | 2:30-4:00 PM   | **System Calls and Plotting**   |
+| IV        | 2:30-4:00 PM   | **Pandas, System Calls and Plotting**   |
 
 
 <br>
@@ -70,7 +70,7 @@ layout: page
 | :-----: |:--------------:| :----------------------- | 
 | I       | 9:00-10:15 AM  | **Version Control with Git** | 
 |         | 10:15-10:30 AM | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Collaborating with GitHub & BitBucket**       | 
+| II      | 10:30-12:00 AM | **Collaborating with GitHub  | 
 |         | 12:00-1:00 PM  | Lunch                    | 
 | III     | 1:00-2:15 PM   | **Concepts in Cluster Computing**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
@@ -84,9 +84,9 @@ layout: page
 | :-----: |:----------------:| :------------------------------------------------------|
 | I       | 9:00-10:15 AM    | **Introduction to scRNA-seq and Overview of Project**      |
 |         | 10:15-10:30 AM   | Coffee Break                                           |
-| II      | 10:30-12:00 AM   | **Obtaining, Parsing and Formatting Data**             |
+| II      | 10:30-12:00 AM   | **Analysis of scRNA-seq dataset with python**              |
 |         | 12:00-1:00 PM    | Lunch                                                  |
-| III     | 1:00-2:15 PM     | **Parallel Association Testing and Visualization**    |
+| III     | 1:00-2:15 PM     | **Analysis of scRNA-seq dataset with R**     |
 |         | 2:15-2:30 PM     | Coffee Break                                           |
 | IV      | 2:30-4:00 PM     | **Group Presentations and Discussion**                 |
 
