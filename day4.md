@@ -34,7 +34,7 @@ general and how to use the [Great Lakes cluster](https://arc-ts.umich.edu/greatl
 
 ### Instructors:
 Hyun Min Kang (HMK)
-Ken Weiss (KW)
+Jim Kenyon (JK)
 
 <br>
 
@@ -65,8 +65,8 @@ Ken Weiss (KW)
  
 —- Lunch Break [1 hr] —
 
-### III)   Concepts in Cluster Computing [1.15 hr]  KW  ([Slides](../class-material/slides_day4_flux.pdf))
-- Connecting to FLUX
+### III)   Concepts in Cluster Computing [1.15 hr]  JK  ([Slides](../class-material/slides_day4_greatlakes.pdf))
+- Connecting to GreatLakes
 - Why cluster computing? 
 - Cluster job submission
 - Cluster job management
@@ -74,7 +74,7 @@ Ken Weiss (KW)
 
 —- Coffee Break [15 mins] —
 
-### IV)   Parallelization Strategies & Workflow Management [1.30 hr] KW
+### IV)   Parallelization Strategies & Workflow Management [1.30 hr] JK
 - [Using Clusters for Exploring Large Data Datasets](../class-material/day4-clusters.html)
 
 —- End/Wrap-Up —
