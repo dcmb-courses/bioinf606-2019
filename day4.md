@@ -75,7 +75,7 @@ Jim Kenyon (JK)
 —- Coffee Break [15 mins] —
 
 ### IV)   Parallelization Strategies & Workflow Management [1.30 hr] JK
-- [Using Clusters for Exploring Large Data Datasets](../class-material/day4-clusters.html)
+<!-- - [Using Clusters for Exploring Large Data Datasets](../class-material/day4-clusters.html) -->
 
 —- End/Wrap-Up —
 
