@@ -53,7 +53,7 @@ Jim Kenyon (JK)
 
 —- Coffee Break [15 mins] —
 
-### II)   Collaborating with GitHub [1:30 hr]  HMK ([Slides](../class-material/bios606_day4_git_part2.pdf)) ([Tutoral](https://github.com/hyunminkang/bioboot-demo-2019))
+### II)   Collaborating with GitHub [1:30 hr]  HMK ([Slides](../class-material/bios606_day4_git_part2.pdf)) ([Tutorial](https://github.com/hyunminkang/bioboot-demo-2019))
 - Online Remote Repositories via GitHub
   - Paradigm shift in software development (permissions and open development)
   - The GitHub steam-train and StackOverflow 
