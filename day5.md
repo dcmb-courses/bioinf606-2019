@@ -58,8 +58,7 @@ Please help us improve this course by completing this [questionnaire](https://do
 
 #### Python notebooks 
 - [ipython notebook - scRNA-seq exercise](https://colab.research.google.com/drive/1QWpNnbjyJrmNks4J71hkwQQAUVAvZA-S#scrollTo=R-E10hIyci5B)
-- [ipython notebook - eQTL exercise, with
-  solutions](https://colab.research.google.com/drive/10toqlqt1HYluzFLVW5a13cWzbWoXBuob)
+- [ipython notebook - scRNA-seq exercise with solutions](https://colab.research.google.com/drive/10toqlqt1HYluzFLVW5a13cWzbWoXBuob)
   
 #### RStudio notebooks
 
